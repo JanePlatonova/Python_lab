@@ -1,0 +1,273 @@
+\documentclass{scrreprt}
+
+\usepackage{pylab}
+
+% Визначення стилів для коду як у файлі if.tex / lecture.sty
+\let\py\relax
+\newtcblisting{py}[1]{
+	enhanced, arc=0pt, outer arc=0pt, 
+	listing engine=minted, minted style=vs, minted language=python, minted options={fontsize=\small, numbersep=3mm, baselinestretch=1.1}, fonttitle=\bfseries, title={#1}, 
+	listing only,
+	colback=MintCream, colbacktitle=pyblue,
+	frame hidden, 
+	borderline north={1pt}{-1pt}{pyblue}, borderline south={2pt}{-2pt}{pyblue}, 
+	boxrule=0pt, titlerule=0pt,
+	left=0.2cm, right=0.2cm,  
+	toptitle=0.1cm, bottomtitle=0.1cm, top=0.2cm, before skip=10pt plus 2pt minus 2pt, after skip=10pt plus 2pt minus 2pt, after={\par\noindent}
+}
+
+\newtcblisting{pydef}{
+	enhanced, arc=0pt, outer arc=0pt, 
+	listing engine=minted, minted style=vs, minted language=python, minted options={fontsize=\small, numbersep=3mm}, 
+	colback=orange!10!white,
+	listing only,
+	frame hidden, 
+	borderline north={1pt}{-1pt}{orange}, borderline south={2pt}{-2pt}{orange}, 
+	boxrule=0pt, titlerule=0pt,
+	left=0.2cm, right=0.2cm, 
+	toptitle=0.1cm, bottomtitle=0.1cm, top=0.2cm, 
+	before skip=10pt plus 2pt minus 2pt, after skip=10pt plus 2pt minus 2pt, after={\par\noindent}
+}
+
+\begin{document}
+	
+	\myheader{Методичні вказівки: Оператор циклу for}
+	
+	\chapter{Оператор циклу \texttt{for} та функція \texttt{range()}}
+	
+	Оператори циклів використовують у випадках, коли в програмі необхідно багаторазово виконати певну послідовність команд. У мові Python основним циклом із заздалегідь відомою кількістю повторень є цикл \texttt{for}.
+	
+	\vspace{0.3cm}
+	
+	\begin{pydef}
+Синтаксис циклу for
+for параметр in range(start, stop, step):
+    блок_операторів
+	\end{pydef}
+	
+	\vspace{0.3cm}
+	
+	\section*{1. Генератор послідовностей \texttt{range()}}
+	
+	Найчастіше для формування послідовностей чисел у циклі \texttt{for} використовується вбудована функція \texttt{range()}. Вона може приймати від 1 до 3 аргументів:
+	
+	\begin{itemize}
+		\item \texttt{range(stop)} "--- генерує числа від $0$ до $stop - 1$ із кроком $1$.
+		\item \texttt{range(start, stop)} "--- генерує числа від $start$ до $stop - 1$ із кроком $1$.
+		\item \texttt{range(start, stop, step)} "--- генерує числа від $start$ до $stop - 1$ із кроком $step$.
+	\end{itemize}
+	
+	\begin{table}[htbp]
+		\centering
+		\renewcommand{\arraystretch}{1.3}
+		\begin{tabular}{|l|l|l|}
+			\hline
+			\textbf{Виклик \texttt{range()}} & \textbf{Згенерована послідовність} & \textbf{Примітка} \\ \hline
+			\texttt{range(5)} & \texttt{0, 1, 2, 3, 4} & Від 0 до 4 \\ \hline
+			\texttt{range(1, 6)} & \texttt{1, 2, 3, 4, 5} & Від 1 до 5 \\ \hline
+			\texttt{range(2, 10, 2)} & \texttt{2, 4, 6, 8} & Парні числа від 2 до 8 \\ \hline
+			\texttt{range(10, 0, -1)} & \texttt{10, 9, 8, 7, 6, 5, 4, 3, 2, 1} & Зворотний відлік \\ \hline
+		\end{tabular}
+		\caption{Приклади роботи функції \texttt{range()}}
+	\end{table}
+
+	\section*{2. Базові алгоритми з циклом \texttt{for}}
+
+	\begin{py}{Приклад 1. Обчислення суми натуральних чисел від 1 до n}
+n = int(input("Введіть n "))
+s = 0
+for i in range(1, n + 1):
+    s += i
+
+print(f"Сума чисел від 1 до {n} дорівнює: {s}")
+	\end{py}
+
+	\begin{py}{Приклад 2. Обчислення факторіала n!}
+n = int(input("Введіть n "))
+fact = 1
+
+for i in range(1, n + 1):
+    fact *= i
+
+print(f"{n}! = {fact}")
+	\end{py}
+
+	\newpage
+
+	\begin{py}{Приклад 3. Табулювання функції y = sin(x) на відрізку [a, b]}
+import math
+
+a = float(input("Введіть початок відрізка a "))
+b = float(input("Введіть кінець відрізка b "))
+n = 10
+h = (b - a) / n
+
+print(" x | sin(x)")
+print("-------------")
+for i in range(n + 1):
+    x = a + i * h
+    y = math.sin(x)
+    print(f"{x:6.2f} | {y:6.4f}")
+	\end{py}
+
+	\vspace{0.5cm}
+
+	\section*{3. Аналіз дільників числа та перевірка на простоту}
+
+	\begin{tcolorbox}[colback=pyblue!5!white,colframe=pyblue,title=\textbf{Математична довідка},fonttitle=\sffamily\bfseries]
+		\textbf{Просте число} "--- це натуральне число, більше за 1, яке має точно два різні натуральні дільники: 1 та саме це число. Якщо число $n$ має дільник, відмінний від 1 та $n$, то найменший такий дільник не перевищує $\lfloor\sqrt{n}\rfloor$.
+	\end{tcolorbox}
+
+	\begin{py}{Приклад 4. Виведення всіх дільників числа}
+n = int(input("Введіть натуральне число n "))
+
+divisors = []
+for i in range(1, n + 1):
+    if n % i == 0:
+        divisors.append(i)
+
+print(f"Дільники числа {n}: {divisors}")
+print(f"Кількість дільників: {len(divisors)}")
+	\end{py}
+
+	\begin{py}{Приклад 5. Оптимізована перевірка числа на простоту}
+import math
+
+n = int(input("Введіть число n (n > 1) "))
+
+if n <= 1:
+    print("Число має бути більшим за 1")
+else:
+    is_prime = True
+    limit = int(math.isqrt(n))
+    
+    for i in range(2, limit + 1):
+        if n % i == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        print(f"Число {n} є простим!")
+    else:
+        print(f"Число {n} є складеним.")
+	\end{py}
+
+	\newpage
+
+	\begin{py}{Приклад 6. Комплексний приклад: дільники та статус простоти}
+import math
+
+n = int(input("Введіть число n "))
+
+if n <= 0:
+    print("Введіть додатне натуральне число!")
+else:
+    divisors = []
+    for i in range(1, n + 1):
+        if n % i == 0:
+            divisors.append(i)
+    
+    print(f"Усі дільники числа {n}: {divisors}")
+    
+    if len(divisors) == 2:
+        print(f"Число {n} є ПРОСТИМ.")
+    elif n == 1:
+        print("Число 1 не є ні простим, ні складеним.")
+    else:
+        print(f"Число {n} є СКЛАДЕНИМ (має {len(divisors)} дільників).")
+	\end{py}
+
+	\vspace{0.5cm}
+
+	\section*{4. Обчислення нескінченних математичних рядів}
+
+	\subsection*{4.1. Сума геометричного ряду}
+	Обчислимо суму $S = \sum_{n=0}^{N} x^n = 1 + x + x^2 + \dots + x^N$ ($|x| < 1$).
+
+	\begin{py}{Приклад 7. Сума геометричного ряду}
+x = float(input("Введіть x (|x| < 1) "))
+n = int(input("Введіть кількість членів N "))
+
+s = 0.0
+term = 1.0
+
+for i in range(n):
+    s += term
+    term *= x
+
+print(f"Сума ряду: {s:.6f}")
+print(f"Точна сума 1/(1-x): {1 / (1 - x):.6f}")
+	\end{py}
+
+	\subsection*{4.2. Обчислення експоненти $e^x$ через ряд Тейлора}
+
+	\begin{py}{Приклад 8. Обчислення e^x через ряд Тейлора}
+import math
+
+x = float(input("Введіть x "))
+n = int(input("Кількість членів ряду "))
+
+s = 0.0
+term = 1.0
+
+for i in range(1, n + 1):
+    s += term
+    term *= x / i
+
+print(f"Наближене значення e^{x} = {s:.8f}")
+print(f"Точне значення (math.exp): {math.exp(x):.8f}")
+	\end{py}
+
+	\newpage
+
+	\section*{5. Управління циклом: \texttt{break}, \texttt{continue} та \texttt{else}}
+
+	\begin{itemize}
+		\item \texttt{break} "--- достроково припиняє виконання циклу.
+		\item \texttt{continue} "--- пропускає залишок тіла циклу та переходить до наступної ітерації.
+		\item \texttt{else} "--- блок коду, який виконується після завершення циклу, якщо вихід з нього \textbf{не} відбувся за допомогою \texttt{break}.
+	\end{itemize}
+
+	\begin{py}{Приклад 9. Пошук першого від'ємного числа з використанням break та else}
+for i in range(5):
+    val = int(input("Введіть число "))
+    if val < 0:
+        print(f"Знайдено перше від'ємне число: {val}")
+        break
+else:
+    print("Усі введені числа є невід'ємними.")
+	\end{py}
+
+	\vspace{0.3cm}
+
+	\section*{6. Оператори інкременту та особливості \texttt{float}}
+
+	У Python відсутні оператори \texttt{++} та \texttt{--}. Замість них використовуються комбіновані оператори присвоєння:
+	\begin{itemize}
+		\item \texttt{x += 1} замість \texttt{x = x + 1}
+		\item \texttt{x -= 1} замість \texttt{x = x - 1}
+		\item \texttt{x *= 2} замість \texttt{x = x * 2}
+	\end{itemize}
+
+	\begin{tcolorbox}[colback=yellow!10!white,colframe=orange,title=\textbf{Обережно з дійсними числами (float)!},fonttitle=\sffamily\bfseries]
+		Числа з плаваючою крапкою зберігаються в пам'яті комп'ютера у двійковій системі з обмеженою точністю (53 біти). Через це обчислення можуть містити незначну похибку:
+\begin{py}{Особливості float}
+>>> 0.1 + 0.1 + 0.1
+0.30000000000000004
+\end{py}
+		Для порівняння речових чисел завжди використовуйте функцію \texttt{math.isclose(a, b)} або порівняння з точністю $\varepsilon$: \texttt{abs(a - b) < 1e-9}.
+	\end{tcolorbox}
+
+	\vspace{0.3cm}
+
+	\section*{7. Завдання для лабораторної роботи}
+
+	\begin{enumerate}[label=\arabic*.]
+		\item \textbf{Аналіз дільників:} Користувач вводить натуральне число $N$. Знайти всі його парні дільники та їх суму.
+		\item \textbf{Пошук простих чисел:} Надрукувати всі прості числа на проміжку від $A$ до $B$ ($1 < A < B$).
+		\item \textbf{Обчислення суми ряду:} Обчислити суму перших $n$ членів ряду з заданою точністю $\varepsilon$:
+		$$ S = \sum_{k=1}^{n} \frac{(-1)^{k+1}}{k^2} = 1 - \frac{1}{4} + \frac{1}{9} - \frac{1}{16} + \dots $$
+		\item \textbf{Найменший спільний дільник:} Для двох введених чисел $A$ та $B$ знайти їх найбільший спільний дільник (НСД) за допомогою циклу \texttt{for}.
+	\end{enumerate}
+
+\end{document}

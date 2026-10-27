@@ -1,0 +1,147 @@
+\documentclass{scrreprt}
+
+\usepackage{pylab}
+
+\begin{document}
+	
+	\myheader{Пам'ятка студенту: Введення даних у Python}
+	
+	{\large
+		\section*{Як правильно зчитувати дані в Python: по одному в рядок та декілька в рядок}
+		
+		Під час розв'язання задач з програмування першим кроком є коректне зчитування вхідних даних. У цій пам'ятці розглянуто основні способи введення даних у Python для різних форматів вхідних файлів або консольного введення.
+		
+		\vspace{0.3cm}
+		
+		\begin{tcolorbox}[colback=pyblue!5!white,colframe=pyblue,title=\textbf{Головне правило Python},fonttitle=\sffamily\bfseries]
+			Функція \texttt{input()} \textbf{завжди} повертає дані у вигляді \textbf{рядка} (\texttt{str}), навіть якщо користувач ввів число!
+		\end{tcolorbox}
+	}
+	
+	\vspace{0.5cm}
+	
+	\section*{1. Введення даних по одному в рядок (з нового рядка)}
+	
+	Коли кожне значення вводиться в окремому рядку (після кожного значення натискається \texttt{Enter}):
+	
+	\begin{enumerate}[label=\arabic*.]
+		\item \textbf{Зчитування рядка (тексту):}
+\begin{minted}[frame=single,framesep=2mm,bgcolor=gray!5]{python}
+name = input()  # Зчитує один рядок тексту
+\end{minted}
+
+		\item \textbf{Зчитування одного цілого числа (\texttt{int}):}
+\begin{minted}[frame=single,framesep=2mm,bgcolor=gray!5]{python}
+n = int(input())  # Перетворює введений рядок у ціле число
+\end{minted}
+
+		\item \textbf{Зчитування одного дійсного числа (\texttt{float}):}
+\begin{minted}[frame=single,framesep=2mm,bgcolor=gray!5]{python}
+x = float(input())  # Перетворює введений рядок у дробове число
+\end{minted}
+
+		\item \textbf{Зчитування кількох чисел, кожне з яких в окремому рядку:}
+\begin{minted}[frame=single,framesep=2mm,bgcolor=gray!5]{python}
+# Вхідні дані:
+# 10
+# 20
+a = int(input())  # Перший рядок -> 10
+b = int(input())  # Другий рядок -> 20
+\end{minted}
+	\end{enumerate}
+
+	\vfill\newpage
+
+	\section*{2. Введення кількох даних в один рядок (через пробіл)}
+	
+	Якщо значення розташовані в одного рядку через пробіл (наприклад: \texttt{10 20}), для їх розділення використовують метод \texttt{.split()}.
+	
+	\begin{enumerate}[label=\arabic*.]
+		\item \textbf{Як працює \texttt{.split()}:}
+		Метод \texttt{split()} розбиває рядок по пробілах і повертає список рядків.
+\begin{minted}[frame=single,framesep=2mm,bgcolor=gray!5]{python}
+# Якщо вхідний рядок: "10 20"
+parts = input().split()  # Поверне список ['10', '20']
+\end{minted}
+
+		\item \textbf{Два (або більше) рядків в один рядок:}
+\begin{minted}[frame=single,framesep=2mm,bgcolor=gray!5]{python}
+# Вхідні дані: hello world
+first, second = input().split()
+\end{minted}
+
+		\item \textbf{Два або три числа в один рядок (найуживаніший спосіб):}
+		Використовуємо комбінацію \texttt{map()} та \texttt{split()}:
+\begin{minted}[frame=single,framesep=2mm,bgcolor=gray!5]{python}
+# Вхідні дані (два цілих числа): 10 20
+a, b = map(int, input().split())
+
+# Вхідні дані (три дійсних числа): 1.5 2.7 3.14
+x, y, z = map(float, input().split())
+\end{minted}
+
+		\item \textbf{Зчитування довільної кількості чисел у список (масив):}
+\begin{minted}[frame=single,framesep=2mm,bgcolor=gray!5]{python}
+# Вхідні дані: 5 12 8 99 3
+numbers = list(map(int, input().split()))
+
+# Або за допомогою List Comprehension:
+numbers = [int(x) for x in input().split()]
+\end{minted}
+	\end{enumerate}
+
+	\vspace{0.5cm}
+
+	\section*{3. Шпаргалка підсумкових режимів введення}
+	
+	\begin{table}[h!]
+		\centering
+		\renewcommand{\arraystretch}{1.4}
+		\begin{tabular}{|l|l|l|}
+			\hline
+			\textbf{Завдання} & \textbf{Формат входження} & \textbf{Код на Python} \\ \hline
+			1 ціле число & \texttt{15} & \py{a = int(input())} \\ \hline
+			1 дійсне число & \texttt{3.1415} & \py{x = float(input())} \\ \hline
+			2 числа з двох рядків & \makecell[l]{\texttt{10}\\\texttt{20}} & \makecell[l]{\py{a = int(input())}\\\py{b = int(input())}} \\ \hline
+			2 цілих числа в один рядок & \texttt{10 20} & \py{a, b = map(int, input().split())} \\ \hline
+			3 дійсних числа в один рядок & \texttt{1.5 2.0 3.5} & \py{x, y, z = map(float, input().split())} \\ \hline
+			Список чисел в один рядок & \texttt{1 2 3 4 5} & \py{arr = list(map(int, input().split()))} \\ \hline
+		\end{tabular}
+	\end{table}
+
+	\newpage
+
+	\section*{4. Найтиповіші помилки студентів та як їх уникнути}
+
+	\begin{enumerate}[label=\arabic*.]
+		\item \textbf{\textcolor{red}{Помилка:}} \texttt{ValueError: invalid literal for int() with base 10: '10 20'}
+		\begin{itemize}
+			\item \textit{Причина:} Спроба зчитати два числа з одного рядка за допомогою \texttt{int(input())}.
+			\item \textit{Як виправити:} Використати \texttt{a, b = map(int, input().split())}.
+		\end{itemize}
+
+		\item \textbf{\textcolor{red}{Помилка:}} \texttt{ValueError: too many values to unpack (expected 2, got 3)}
+		\begin{itemize}
+			\item \textit{Причина:} У рядку введено 3 числа, а змінних ліворуч лише 2 (наприклад, \texttt{a, b = ...}).
+			\item \textit{Як виправити:} Узгодити кількість змінних із кількістю чисел або зчитати у список \texttt{lst = list(map(int, input().split()))}.
+		\end{itemize}
+
+		\item \textbf{\textcolor{red}{Помилка:}} Неправильне додавання замість математичного: \texttt{"10" + "20" -> "1020"}
+		\begin{itemize}
+			\item \textit{Причина:} Забули обгорнути \texttt{input()} у \texttt{int()} або \texttt{float()}.
+			\item \textit{Як виправити:} Завжди явним чином приводьте тип: \texttt{int(input())}.
+		\end{itemize}
+	\end{enumerate}
+
+	\vspace{0.5cm}
+
+	\section*{5. Завдання для самоперевірки}
+
+	Напишіть фрагмент коду для кожного випадку:
+	\begin{enumerate}[label=\Alph*.]
+		\item Зчитати з одного рядка довжину та ширину прямокутника (цілі числа) і обчислити його площу.
+		\item Зчитати з трьох послідовних рядків прізвище, ім'я та вік студента.
+		\item Зчитати з одного рядка координати точок $A(x_1, y_1)$ та $B(x_2, y_2)$ (чотири дійсні числа через пробіл).
+	\end{enumerate}
+
+\end{document}

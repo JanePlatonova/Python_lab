@@ -1,0 +1,144 @@
+\ProvidesPackage{pylab}
+
+\usepackage{cmap}
+
+\usepackage[left=1.75cm, right=1.75cm, top=2cm, bottom=1.5cm]{geometry}
+
+%\usepackage[T2A]{fontenc}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage{cmbright}
+%\renewcommand*{\familydefault}{\rmdefault}
+
+%\usepackage{fontspec}
+%\setmainfont{CMU Bright}
+%\setsansfont{CMU Sans Serif}
+%\setmonofont{CMU Typewriter Text}
+
+\usepackage[notext,sfmath]{kpfonts}
+
+\usepackage{fontspec}
+\setmainfont{Roboto}%{HelveticaNeueCyr}%{Clear Sans}
+\setsansfont{Roboto Slab}%[Scale=1.17]{Linux Biolinum O}%{CMU Sans Serif}%{Ubuntu}%{Liberation Sans}
+\setmonofont{Roboto Mono}%[Scale=0.97]{Inconsolata LGC}%{NK57MonospaceScRg-Regular}%{Inconsolata LGC}%{Source Code Pro}{zcoN}
+
+%\renewcommand*{\textbf}[1]{{\fontspec[Ligatures=TeX]{Roboto Bold}#1}}
+%\renewcommand*{\textit}[1]{{\fontspec[Ligatures=TeX]{Roboto Light Italic}#1}}
+
+\usepackage[
+basic,
+italic,
+defaultmathsizes,
+selfGreeks]{mathastext}
+
+\usepackage[english,russian]{babel}
+
+\linespread{1.1}
+\usepackage{enumitem}
+\setlist{noitemsep}
+%\usepackage{parskip}
+\setlength{\parindent}{15pt}
+\renewcommand{\arraystretch}{1.1}
+
+\usepackage{microtype}
+
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{multicol}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{textcomp}
+\usepackage{icomma}
+
+\usepackage{fontawesome}
+
+\pagestyle{empty}
+
+%\usepackage{indentfirst}
+
+\usepackage[dvipsnames,svgnames,x11names]{xcolor}
+
+\usepackage{pgf,tikz}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shadows}
+\usetikzlibrary{shadows.blur}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{shapes}
+
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+\definecolor{pyblue}{HTML}{3C7DA7}
+\definecolor{pyyellow}{HTML}{FFDB6D}
+
+\newcommand{\myheader}[1]{
+	\begin{tcolorbox}[enhanced, fonttitle=\scriptsize\sffamily\bfseries, coltitle=pyyellow, colframe=white, title style={left color=pyblue, right color=black}, colback=white, boxrule=0pt, leftrule=0pt, rightrule=0pt, titlerule=0pt, toprule=0pt, bottomrule=1pt, arc=0pt, outer arc=0pt, left=0mm, right=0mm, adjusted title={Курс <<Основи програмування>>\hbox to 1.75cm {}\\Спеціальність <<Математика>>\hbox to 1.75cm {} }, halign title=flush right, boxsep=0mm, toptitle=1.5mm, bottomtitle=1.5mm]
+		\begin{minipage}[b]{0.75\textwidth}
+			{\Large\sffamily\bfseries #1}
+			\vspace{-0.3cm}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.15\textwidth}
+			\vspace{-0.65cm}
+			\includegraphics[width=\linewidth]{Py.png}
+			\vspace{-0.6cm}
+		\end{minipage}
+		\par\vspace{6pt}
+		\begin{tikzpicture}
+			\fill[left color=pyblue, right color=black] (0,0) rectangle (\textwidth,-1pt);
+		\end{tikzpicture}
+	\end{tcolorbox}
+	\bigskip
+}
+
+\newcommand{\variant}[1]{
+	\noindent\textsf{\large\bfseries Вариант~#1}
+}
+
+\usepackage{minted}
+\usemintedstyle{vs}
+
+\usepackage{hyperref}
+\hypersetup{
+	pdftitle={PythonLab_InOut},   % Заголовок
+	pdfauthor={E. M. Strakhov},      % Автор
+	pdfsubject={},      % Тема
+	pdfcreator={E. M. Strakhov}, % Создатель
+	pdfproducer={}, % Производитель
+	pdfkeywords={}, % Ключевые слова
+	colorlinks=true,
+	bookmarks=true,
+	unicode=true,
+	linkcolor=MediumBlue,
+	urlcolor=MediumBlue,
+	citecolor=MediumBlue
+}
+
+\newcommand{\myurl}[2]{
+	\href[pdfnewwindow=true]{#1}{#2~\faExternalLink}
+}
+
+\newcommand{\py}[1]{\mintinline{python}{#1}}
+
+\usepackage{array}
+\newcolumntype{$}{>{\global\let\currentrowstyle\relax}}
+\newcolumntype{^}{>{\currentrowstyle}}
+\newcommand{\rowstyle}[1]{\gdef\currentrowstyle{#1}%
+	#1\ignorespaces
+}
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+		\node[shape=circle,draw=pyblue, fill=pyblue,inner sep=2pt] (char) {\color{pyyellow}\bfseries\sffamily#1};}}
+
+\usepackage{enumitem}
+\setlist[enumerate]{
+	label=\protect\circled{\Alph*},
+	itemsep=6pt
+}

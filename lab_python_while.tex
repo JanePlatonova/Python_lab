@@ -1,0 +1,337 @@
+\documentclass{scrreprt}
+
+\usepackage{pylab}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=2.2cm, minimum height=0.7cm, text centered, draw=pyblue, fill=pyblue!10, font=\sffamily\small]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=2.2cm, minimum height=0.7cm, text centered, draw=pyblue, fill=pyblue!20, font=\sffamily\small]
+\tikzstyle{process} = [rectangle, minimum width=2.5cm, minimum height=0.7cm, text centered, draw=pyblue, fill=pyblue!10, font=\sffamily\small]
+\tikzstyle{decision} = [diamond, aspect=2, minimum width=2.2cm, minimum height=0.7cm, text centered, draw=pyblue, fill=pyyellow!40, font=\sffamily\small]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+\begin{document}
+	
+	\myheader{Тема: Оператор циклу while в Python}
+	
+	{\large
+		\section*{Навчальний матеріал та методичні вказівки}
+		
+		Оператори циклів призначені для багаторазового виконання певної послідовності команд. У мові Python, на відміну від циклу \texttt{for} (який зазвичай використовується для перебору фіксованих послідовностей), цикл \textbf{\texttt{while}} реалізує \textbf{повторення за умовою} (цикл із передумовою).
+	}
+	
+	\vspace{0.3cm}
+	
+	\section*{1. Синтаксис та механіка роботи циклу \texttt{while}}
+	
+	Блок операторів всередині циклу \texttt{while} виконується доти, доки значення виразу-умови дорівнює \texttt{True}. Перевірка умови здійснюється \textbf{перед кожним повтором} тіла циклу.
+	
+	\begin{pydef}
+Синтаксис циклу while
+while вираз_умови:
+    блок_операторів
+	\end{pydef}
+	
+	\begin{figure}[h!]
+		\centering
+		\begin{tikzpicture}[node distance=1.5cm]
+			\node (start) [startstop] {Початок};
+			\node (cond) [decision, below of=start, yshift=-0.3cm] {Вираз умови?};
+			\node (body) [process, below of=cond, yshift=-0.5cm] {Блок операторів (тіло циклу)};
+			\node (next) [startstop, right of=cond, xshift=3.5cm] {Наступні оператори};
+			
+			\draw [arrow] (start) -- (cond);
+			\draw [arrow] (cond) -- node[anchor=east] {\small True (Істина)} (body);
+			\draw [arrow] (cond) -- node[anchor=south] {\small False (Хибність)} (next);
+			\draw [arrow] (body.west) -- ++(-1.2,0) |- (cond.west);
+		\end{tikzpicture}
+		\caption{Блок-схема керування потоком виконання циклу \texttt{while}}
+	\end{figure}
+	
+	\begin{py}{Приклад 1. Виведення значень лічильника від 0 до 4}
+i = 0
+while i < 5:
+    print("значення лічильника =", i)
+    i += 1  # збільшуємо лічильник на 1
+
+print("end")
+	\end{py}
+	
+	\textbf{Аналіз виконання:}
+	\begin{enumerate}[label=\arabic*.]
+		\item Спочатку змінній \texttt{i} присвоюється початкове значення \texttt{0}.
+		\item Перевіряється умова \texttt{i < 5} ($0 < 5 \Rightarrow \text{\texttt{True}}$). Виконується тіло циклу: друкується повідомлення, значення \texttt{i} стає \texttt{1}.
+		\item Процес повторюється для \texttt{i = 1, 2, 3, 4}.
+		\item Коли \texttt{i} досягає значення \texttt{5}, умова \texttt{5 < 5} повертає \texttt{False}. Виконання циклу припиняється, і програма переходить до наступної інструкції — \texttt{print("end")}.
+	\end{enumerate}
+	
+	\newpage
+	
+	\section*{2. Керуючі інструкції \texttt{break}, \texttt{continue}, \texttt{pass} та блок \texttt{else}}
+	
+	Для гнучкого керування перебігом циклу в Python передбачені спеціальні оператори:
+	
+	\begin{itemize}
+		\item \textbf{\texttt{break}} "--- негайно перериває виконання циклу та передає керування першому оператору поза циклом.
+		\item \textbf{\texttt{continue}} "--- достроково завершує поточну ітерацію та повертає виконання на початок циклу до перевірки виразу-умови.
+		\item \textbf{\texttt{pass}} "--- порожня інструкція (заглушка), яка не виконує жодних дій. Використовується у випадках, коли синтаксис вимагає наявності блоку коду, але логіка ще не реалізована.
+		\item \textbf{Блок \texttt{else}} "--- виконується тоді, коли цикл закінчився \textbf{природним шляхом} (умова стала \texttt{False}). Якщо цикл було перервано інструкцією \textbf{\texttt{break}}, блок \texttt{else} \textbf{не виконується}.
+	\end{itemize}
+	
+	\begin{pydef}
+Загальний синтаксис розширеного циклу while
+while вираз_умови:
+    блок_операторів_1
+    if умова_дострокового_виходу:
+        break       # Вихід з циклу (пропускаючи else)
+    if умова_пропуску_ітерації:
+        continue    # Перехід на початок циклу
+    блок_операторів_2
+else:
+    блок_операторів_else  # Виконується, якщо цикл не було перервано через break
+	\end{pydef}
+	
+	\begin{py}{Приклад 2. Перевірка наявності цифри 4 у числі за допомогою break та else}
+N = int(input("Введіть натуральне число N = "))
+temp = N
+
+while temp > 0:
+    digit = temp % 10
+    if digit == 4:
+        print(f"У числі {N} є цифра 4")
+        break
+    temp //= 10
+else:
+    print(f"У числі {N} немає цифри 4")
+	\end{py}
+	
+	\section*{3. Типові паттерни використання циклу \texttt{while}}
+	
+	\subsection*{Паттерн 1. Інтерактивний діалог та валідація введення даних}
+	
+	Цикл \texttt{while} ідеально підходить для ситуацій, коли потрібно запитувати дані у користувача доти, доки вони не відповідатимуть критеріям коректності.
+	
+	\begin{py}{Приклад 3. Повторний запит до введення позитивного числа}
+x = int(input("Введіть позитивне число x = "))
+while x <= 0:
+    print("Помилка! Число має бути більшим за 0.")
+    x = int(input("Введіть позитивне число x = "))
+
+print("Дякуємо! Ви ввели:", x)
+	\end{py}
+	
+	\begin{py}{Приклад 4. Інтерактивна перевірка стану (діалог)}
+answer = input("Двері відчинені? (так/ні): ")
+while answer.lower() != "так":
+    print("Стукаємо у двері...")
+    answer = input("Двері відчинені? (так/ні): ")
+
+print("Заходимо!")
+	\end{py}
+	
+	\newpage
+	
+	\subsection*{Паттерн 2. Обробка потоку даних до стоп-сигналу (Sentinel value)}
+	
+	Часто кількість вхідних елементів заздалегідь невідома, а сигналом завершення введення слугує спеціальне значення (наприклад, \texttt{0}).
+	
+	\begin{py}{Приклад 5. Знайдемо суму чисел, які вводить користувач (стоп-сигнал — 0)}
+s = 0.0
+x = float(input("Введіть число (0 для завершення): "))
+
+while x != 0:
+    s += x
+    x = float(input("Введіть наступне число (0 для завершення): "))
+
+print(f"Сума введених чисел дорівнює: {s}")
+	\end{py}
+	
+	\subsection*{Паттерн 3. Табулювання функції до настання умови}
+	
+	\begin{py}{Приклад 6. Обчислення значення sin(x) з кроком 0.1, доки синус не стане від'ємним}
+import math
+
+x = 0.0
+while math.sin(x) >= 0:
+    print(f"x = {x:.1f} | sin(x) = {math.sin(x):.4f}")
+    x += 0.1
+	\end{py}
+	
+	\subsection*{Паттерн 4. Обчислення суми нескінченного ряду з заданою точністю $\varepsilon$}
+	
+	Розклад функції $e^x$ у ряд Тейлора має вигляд:
+	$$
+	e^x = \sum_{k=0}^{\infty} \frac{x^k}{k!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \dots + \frac{x^k}{k!} + \dots
+	$$
+	Для ефективного обчислення чергового доданку $t_k = \frac{x^k}{k!}$ використовують рекурентне співвідношення:
+	$$
+	t_k = t_{k-1} \cdot \frac{x}{k}, \quad \text{де } t_0 = 1.
+	$$
+	Це дозволяє уникнути повторного та затратного обчислення факторіала $k!$ на кожній ітерації.
+	
+	\begin{py}{Приклад 7. Обчислення exp(x) з точністю eps = 1e-8}
+import math
+
+x = 1.0
+eps = 1e-8
+
+s = 0.0
+term = 1.0  # Перший доданок (x^0 / 0! = 1)
+k = 1
+
+while abs(term) > eps:
+    s += term
+    term = term * x / k  # Обчислення наступного доданку через попередній
+    k += 1
+
+print(f"Обчислена сума s  = {s:.8f}")
+print(f"Точне значення exp = {math.exp(x):.8f}")
+print(f"Кількість ітерацій  = {k - 1}")
+	\end{py}
+	
+	\newpage
+	
+	\section*{4. Проблема «зациклювання» та пастки порівняння дійсних чисел}
+	
+	При неуважному використанні циклу \texttt{while} програма може потрапити в нескінченний цикл (\textbf{зациклювання}). Основні причини цього:
+	
+	\begin{enumerate}[label=\arabic*.]
+		\item \textbf{Відсутність зміни змінних:} Усередині тіла циклу забули оновити змінну, яка бере участь у виразі-умові.
+		\item \textbf{Логічно некоректна умова:} Вираз умови завжди набуває значення \texttt{True} незалежно від дій у циклі.
+		\item \textbf{Пастка неточного порівняння дійсних чисел (\texttt{float}):}
+	\end{enumerate}
+	
+	\begin{tcolorbox}[colback=orange!10!white,colframe=orange,title=\textbf{Небезпека строгової рівності для float!},fonttitle=\sffamily\bfseries]
+		Через особливості збереження дійсних чисел у пам'яті комп'ютера (стандарт IEEE 754), додавання $0.3$ чотири рази дає $1.2000000000000002$, а не $1.2$.
+		Тому умова \texttt{x != 1.0} при кроці \texttt{+0.3} призведе до **нескінченного циклу**!
+	\end{tcolorbox}
+	
+	\begin{py}{Приклад 8. Нескінченний цикл через точність float (НЕРОБОЧИЙ КОД)}
+# УВАГА: Цей код зациклиться!
+x = 0.0
+while x != 1.0:
+    print(f"x = {x}")
+    x += 0.3  # x набуде значень 0.0, 0.3, 0.6, 0.9, 1.2000000000000002... і ніколи 1.0!
+	\end{py}
+	
+	\begin{py}{Правильне виправлення: використання нерівності замість строгої рівності}
+x = 0.0
+while x < 1.0:
+    print(f"x = {x:.1f}")
+    x += 0.3
+	\end{py}
+	
+	\section*{5. Алгоритмічний приклад: Алгоритм Евкліда (знаходження НСД)}
+	
+	Алгоритм Евкліда для пошуку найбільшого спільного дільника (НСД) двох натуральних чисел $a$ та $b$ базується на послідовному знаходженні залишку від ділення.
+	
+	\begin{figure}[h!]
+		\centering
+		\begin{tikzpicture}[node distance=1.4cm]
+			\node (in) [io] {Вхід: $a, b$};
+			\node (cond1) [decision, below of=in, yshift=-0.2cm] {$a > 0 \text{ and } b > 0$?};
+			\node (cond2) [decision, below of=cond1, yshift=-0.6cm] {$a > b$?};
+			\node (mod1) [process, left of=cond2, xshift=-2.2cm] {$a = a \pmod b$};
+			\node (mod2) [process, right of=cond2, xshift=2.2cm] {$b = b \pmod a$};
+			\node (out) [io, right of=cond1, xshift=3.8cm] {Вихід: $a + b$};
+			
+			\draw [arrow] (in) -- (cond1);
+			\draw [arrow] (cond1) -- node[anchor=east] {\small Так} (cond2);
+			\draw [arrow] (cond1) -- node[anchor=south] {\small Ні} (out);
+			\draw [arrow] (cond2) -- node[anchor=south] {\small Так} (mod1);
+			\draw [arrow] (cond2) -- node[anchor=south] {\small Ні} (mod2);
+			\draw [arrow] (mod1) |- ($(cond1.north)+(0,0.4)$) -- (cond1.north);
+			\draw [arrow] (mod2) |- ($(cond1.north)+(0,0.4)$) -- (cond1.north);
+		\end{tikzpicture}
+		\caption{Блок-схема алгоритму Евкліда (модифікація за залишком від ділення)}
+	\end{figure}
+	
+	\begin{py}{Приклад 9. Реалізація Алгоритму Евкліда в Python}
+a = int(input("Введіть перше число a = "))
+b = int(input("Введіть друге число b = "))
+
+a_orig, b_orig = a, b
+
+while a > 0 and b > 0:
+    if a > b:
+        a %= b
+    else:
+        b %= a
+
+gcd = a + b  # Оскільки один з них дорівнює 0, сума дорівнює НСД
+print(f"НСД({a_orig}, {b_orig}) = {gcd}")
+	\end{py}
+	
+	\newpage
+	
+	\section*{6. Комплексний приклад: Аналіз введених чисел}
+	
+	\begin{py}{Приклад 10. Середнє арифметичне простих чисел до введення 0}
+# Програма зчитує числа до 0 та обчислює середнє арифметичне лише простих чисел
+
+count_prime = 0
+sum_prime = 0.0
+
+x = int(input("Введіть число (0 для завершення): "))
+
+while x != 0:
+    # Перевірка x на простоту
+    is_prime = True
+    if x <= 1:
+        is_prime = False
+    else:
+        d = 2
+        while d * d <= x:
+            if x % d == 0:
+                is_prime = False
+                break
+            d += 1
+            
+    if is_prime:
+        count_prime += 1
+        sum_prime += x
+        
+    x = int(input("Введіть наступне число (0 для завершення): "))
+
+if count_prime == 0:
+    print("Серед введених даних немає простих чисел.")
+else:
+    avg = sum_prime / count_prime
+    print(f"Кількість простих чисел: {count_prime}")
+    print(f"Середнє арифметичне простих чисел: {avg:.2f}")
+	\end{py}
+	
+	\newpage
+	
+	\myheader{Завдання на парі (Практична частина)}
+	
+	{\large
+		\section*{Завдання для самостійної та аудиторної роботи}
+		
+		Виконайне подані нижче завдання, використовуючи оператор циклу \texttt{while}. Для кожної задачі зверніть увагу на обробку граничних випадків та коректність введення даних.
+		
+		\begin{enumerate}
+			\item \textbf{Парні числа.} Вивести на екран усі парні числа від 2 до 20 включно в один рядок через пробіл.
+			
+			\item \textbf{Сума послідовності.} Порахувати суму натуральних чисел від 1 до заданого числа $n$ (значення $n$ вводиться з клавіатури).
+			
+			\item \textbf{Валідація введення.} Скласти програму, яка послідовно запитує у користувача цілі числа доти, доки він не введе число \texttt{0}. Після введення \texttt{0} програма виводить повідомлення <<Дякуємо!>>.
+			
+			\item \textbf{Цифри числа.} Дано натуральне число $n$. Вивести всі цифри цього числа по одній у зворотному порядку (починаючи з останньої цифри).  
+			\textit{Приклад:} для $n = 123$ виведення має бути: $3, 2, 1$.
+			
+			\item \textbf{Кількість цифр.} Знайдіть кількість цифр у введеному натуральному числі $n$.  
+			\textit{Приклад:} для $n = 45678$ результат дорівнює $5$.
+			
+			\item \textbf{Обчислення факторіала.} Обчислити факторіал введеного натурального числа $n$ ($n! = 1 \times 2 \times \dots \times n$). Передбачити випадок $0! = 1$.
+			
+			\item \textbf{Гра <<Вгадай число>>.} Програма випадковим чином загадує ціле число від 1 до 10 (\py{import random; secret = random.randint(1, 10)}). Користувач вводить свої варіанти підказок доти, доки не вгадає число. Після кожного невірного варіанта програма виводить <<Спробуйте ще раз!>>, а при вгадуванні "--- <<Вітаємо, ви вгадали!>>.
+			
+			\item \textbf{Перевірка на простоту.} Написати програму, яка перевіряє, чи є введене натуральне число $n$ простим (тобто ділиться без залишку тільки на 1 та на саме себе).
+			
+			\item \textbf{Числа Фібоначчі.} Надрукувати всі числа Фібоначчі, які менші за задане натуральне число $n$. Нагадаємо, що послідовність Фібоначчі починається з $0, 1, 1, 2, 3, 5, 8, 13, \dots$, де кожне наступне число є сумою двох попередніх.
+			
+			\item \textbf{Алгоритм Евкліда (НСД).} Реалізувати знаходження найбільшого спільного дільника (НСД) двох введених натуральних чисел $a$ та $b$ за допомогою алгоритму Евкліда.
+		\end{enumerate}
+	}
+	
+\end{document}
