@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.11.12)  27 OCT 2026 22:20
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.11.12)  27 OCT 2026 23:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1763,7 +1763,7 @@ File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 (titul12.aux)
 Package babel Info: 'ukrainian' activates 'ukrainian' shorthands.
 (babel)             Reported on input line 11.
- (lab_if_2.aux))
+ (lab_python_if_1.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 449.
@@ -1989,65 +1989,54 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 )
-\openout2 = `lab_if_2.aux'.
+\openout2 = `lab_python_if_1.aux'.
 
- (lab_if_2.tex
+ (lab_python_if_1.tex
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 2--3
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 3--4
 [][] 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <16.79996> on input line 6.
-
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 8.
+LaTeX Font Info:    Calculating math sizes for size <11.66681> on input line 30
+.
+LaTeX Font Info:    Calculating math sizes for size <16.79996> on input line 34
+.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16.79996> not available
-(Font)              size <17.28> substituted on input line 6.
+(Font)              size <17.28> substituted on input line 34.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16.79996> not available
-(Font)              size <17.28> substituted on input line 6.
+(Font)              size <17.28> substituted on input line 34.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <16.79996> not available
-(Font)              size <17.28> substituted on input line 6.
+(Font)              size <17.28> substituted on input line 34.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16.79996> not available
-(Font)              size <17.28> substituted on input line 6.
+(Font)              size <17.28> substituted on input line 34.
 
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 13--14
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 24--25
-[][] 
- []
-
-LaTeX Font Info:    Calculating math sizes for size <12.77509> on input line 30
+LaTeX Font Info:    Calculating math sizes for size <12.77509> on input line 51
 .
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <12.77509> not available
-(Font)              size <12> substituted on input line 30.
+(Font)              size <12> substituted on input line 51.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <12.77509> not available
-(Font)              size <12> substituted on input line 30.
+(Font)              size <12> substituted on input line 51.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <12.77509> not available
-(Font)              size <12> substituted on input line 30.
+(Font)              size <12> substituted on input line 51.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <12.77509> not available
-(Font)              size <12> substituted on input line 30.
+(Font)              size <12> substituted on input line 51.
 
 
 Package scrlayer-scrpage Warning: \headheight to low.
@@ -2057,14 +2046,12 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=19.16255pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 3
-0.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 5
+1.
 
 
 Overfull \vbox (2.16255pt too high) has occurred while \output is active []
 
-LaTeX Font Info:    Calculating math sizes for size <11.66681> on input line 30
-.
 
 
 Package scrlayer-scrpage Warning: \footheight to low.
@@ -2075,7 +2062,7 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                e.g., using
 (scrlayer-scrpage)                  \setlength{\footheight}{17.50014pt}
 (scrlayer-scrpage)                in your preamble.
-(scrlayer-scrpage)                I'll also increase \footskip on input line 30
+(scrlayer-scrpage)                I'll also increase \footskip on input line 51
 .
 
 [3
@@ -2086,47 +2073,279 @@ Package scrlayer-scrpage Warning: \footheight to low.
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 35--36
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
 Overfull \hbox (34.3432pt too wide) in paragraph at lines 53--54
 [][] 
  []
 
+[4
 
-Overfull \hbox (3.66338pt too wide) in paragraph at lines 57--58
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 106--107
+[][] 
+ []
+
+[5
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 159--160
+[][] 
+ []
+
+[6
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 208--209
+[][] 
+ []
+
+File: 2.png Graphic file (type bmp)
+<2.png>
+[7
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 237--238
+[][] 
+ []
+
+File: 1.png Graphic file (type bmp)
+<1.png>
+[8
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 266--267
+[][] 
+ []
+
+[9
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 315--316
+[][] 
+ []
+
+File: 3.png Graphic file (type bmp)
+<3.png>
+[10
+
+
+] [11
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 346--347
+[][] 
+ []
+
+[12
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 406--407
+[][] 
+ []
+
+[13
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 459--460
+[][] 
+ []
+
+[14
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 512--513
+[][] 
+ []
+
+[15
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 566--567
+[][] 
+ []
+
+[16
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 620--621
+[][] 
+ []
+
+File: 9.png Graphic file (type bmp)
+<9.png>
+[17
+
+
+] [18
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 651--652
+[][] 
+ []
+
+File: 10.png Graphic file (type bmp)
+<10.png>
+[19
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 679--680
+[][] 
+ []
+
+[20
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 730--731
+[][] 
+ []
+
+[21
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 784--785
+[][] 
+ []
+
+File: 10.png Graphic file (type bmp)
+<10.png>
+) [22
+
+
+]
+\openout2 = `lab_if_2.aux'.
+
+ (lab_if_2.tex
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 6--7
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 17--18
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 28--29
+[][] 
+ []
+
+[23
+
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 39--40
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 57--58
+[][] 
+ []
+
+[24]
+Overfull \hbox (3.66338pt too wide) in paragraph at lines 61--62
 \TU/TimesNewRoman(0)/m/n/16.79996 визначити, чи він є «щасливим». Квиток вважає
 ться «щасливим»,
  []
 
-[4]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 64--65
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 68--69
 [][] 
  []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 75--76
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 79--80
 [][] 
  []
 
+[25]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 86--87
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 90--91
 [][] 
  []
 
-[5]
-Overfull \hbox (2.44933pt too wide) in paragraph at lines 92--93
+
+Overfull \hbox (2.44933pt too wide) in paragraph at lines 96--97
 \TU/TimesNewRoman(0)/m/n/16.79996 такого трикутника не існує, вивести повідомле
 ння. Програма має
  []
@@ -2134,27 +2353,27 @@ Overfull \hbox (2.44933pt too wide) in paragraph at lines 92--93
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 98--99
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 102--103
 [][] 
  []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 109--110
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 113--114
 [][] 
  []
 
-[6]
+[26]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 128--129
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 132--133
 [][] 
  []
 
 
-Overfull \hbox (54.71385pt too wide) in paragraph at lines 133--134
+Overfull \hbox (54.71385pt too wide) in paragraph at lines 137--138
 \TU/TimesNewRoman(0)/m/n/16.79996 «yes», якщо така дата існує (наприклад, 12.02
 .1999 [] «yes», 22.13.2001 []
  []
@@ -2162,38 +2381,189 @@ Overfull \hbox (54.71385pt too wide) in paragraph at lines 133--134
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 140--141
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 144--145
 [][] 
  []
 
 
-Overfull \hbox (0.88878pt too wide) in paragraph at lines 145--146
+Overfull \hbox (0.88878pt too wide) in paragraph at lines 149--150
 \TU/TimesNewRoman(0)/m/n/16.79996 північ, «12» [] захід, «13» [] південь, «14» 
 [] схід) і приймати три
  []
 
 
-Overfull \hbox (14.46031pt too wide) in paragraph at lines 145--146
+Overfull \hbox (14.46031pt too wide) in paragraph at lines 149--150
 \TU/TimesNewRoman(0)/m/n/16.79996 цифрові команди: 0 [] продовжувати рух, 1 [] 
 поворот наліво, $\OMS/cmsy/m/n/17.28 ^^@\OT1/cmr/m/n/17.28 1$ []
  []
 
-[7]
+[27]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 152--153
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 156--157
 [][] 
  []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 163--164
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 167--168
 [][] 
  []
 
-[8]
+[28]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 178--179
+[][] 
+ []
+
+) [29]
+\openout2 = `lab_python_if.aux'.
+
+ (lab_python_if.tex
+Overfull \hbox (27.08757pt too wide) in paragraph at lines 4--5
+\TU/TimesNewRoman(0)/m/n/16.79996 При виконанні лабораторних робіт з теми \TU/T
+imesNewRoman(0)/b/n/16.79996 «Умовні оператори в Python»
+ []
+
+(D:\Program Files\MiKTeX\tex/latex/microtype\mt-TU-empty.cfg
+File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonsta
+ndard glyph set (RS)
+)
+Overfull \hbox (32.26564pt too wide) in paragraph at lines 9--10
+[]\TU/TimesNewRoman(0)/m/n/16.79996 Для натуральних та цілих чисел використовуй
+те \TU/CourierNew(0)/m/n/16.79996 int(input())\TU/TimesNewRoman(0)/m/n/16.79996
+ . 
+ []
+
+
+Overfull \hbox (52.2566pt too wide) in paragraph at lines 10--11
+[]\TU/TimesNewRoman(0)/m/n/16.79996 Для дійсних чисел та координат використовуй
+те \TU/CourierNew(0)/m/n/16.79996 float(input())\TU/TimesNewRoman(0)/m/n/16.799
+96 . 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 29--30
+[][] 
+ []
+
+[30
+
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 49--50
+[][] 
+ []
+
+
+Overfull \hbox (133.25443pt too wide) in paragraph at lines 54--55
+[]$\OML/cmm/m/it/17.28 k$\TU/TimesNewRoman(0)/b/n/16.79996 -та цифра послідовно
+сті $\OT1/cmr/m/n/17.28 10 [] 99$\TU/TimesNewRoman(0)/b/n/16.79996 . \TU/TimesN
+ewRoman(0)/m/n/16.79996 Нехай у послідовності \TU/CourierNew(0)/m/n/16.79996 10
+111213...979899
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 61--62
+[][] 
+ []
+
+[31]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 73--74
+[][] 
+ []
+
+
+Overfull \hbox (11.39735pt too wide) in paragraph at lines 78--79
+[]\TU/TimesNewRoman(0)/b/n/16.79996 Обчислення плати за телефон. \TU/TimesNewRo
+man(0)/m/n/16.79996 Послуги телефонної мережі опла-
+ []
+
+
+Overfull \hbox (3.7903pt too wide) in paragraph at lines 78--79
+\TU/TimesNewRoman(0)/m/n/16.79996 установу норму оплачуються за тарифом $\OML/c
+mm/m/it/17.28 C$ \TU/TimesNewRoman(0)/m/n/16.79996 грн за хвилину. Окрім
+ []
+
+[32]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 85--86
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 97--98
+[][] 
+ []
+
+[33]
+Overfull \hbox (5.7818pt too wide) in paragraph at lines 102--103
+[]\TU/TimesNewRoman(0)/b/n/16.79996 Периметр і площа трикутника. \TU/TimesNewRo
+man(0)/m/n/16.79996 Дано три довільних числа $\OML/cmm/m/it/17.28 a; b; c$\TU/T
+imesNewRoman(0)/m/n/16.79996 .
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 114--115
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 126--127
+[][] 
+ []
+
+[34]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 138--139
+[][] 
+ []
+
+
+Overfull \hbox (1.52092pt too wide) in paragraph at lines 146--147
+[]\TU/TimesNewRoman(0)/m/n/16.79996 Якщо внесено більше грошей, ніж потрібно, н
+адрукувати «Ві-
+ []
+
+[35]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 155--156
+[][] 
+ []
+
+
+Overfull \hbox (28.55014pt too wide) in paragraph at lines 167--169
+\TU/TimesNewRoman(0)/m/n/16.79996 У відповіді вивести одне з повідомлень: «Сист
+ема не має розв’язків»,
+ []
+
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -2201,7 +2571,54 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 174--175
 [][] 
  []
 
-) [9]
+[36]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 186--187
+[][] 
+ []
+
+
+Overfull \hbox (85.00305pt too wide) in paragraph at lines 191--192
+[]$\OML/cmm/m/it/17.28 k$\TU/TimesNewRoman(0)/b/n/16.79996 -та цифра послідовно
+сті $\OT1/cmr/m/n/17.28 0 [] 20$\TU/TimesNewRoman(0)/b/n/16.79996 . \TU/TimesNe
+wRoman(0)/m/n/16.79996 Нехай у послідовності \TU/CourierNew(0)/m/n/16.79996 012
+3...181920
+ []
+
+
+Overfull \hbox (44.06055pt too wide) in paragraph at lines 192--193
+[]\TU/TimesNewRoman(0)/b/n/16.79996 Перетин двох відрізків $\OML/cmm/m/it/17.28
+ AB$ \TU/TimesNewRoman(0)/b/n/16.79996 та $\OML/cmm/m/it/17.28 CD$\TU/TimesNewR
+oman(0)/b/n/16.79996 . \TU/TimesNewRoman(0)/m/n/16.79996 Дано координати точок 
+$\OML/cmm/m/it/17.28 A; B; C; D$
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 198--199
+[][] 
+ []
+
+[37]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 209--210
+[][] 
+ []
+
+[38]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 221--222
+[][] 
+ []
+
+) [39]
 
 Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
 (scrreprt)              Note: KOMA-Script does use styles for commands like
@@ -2214,20 +2631,17 @@ Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
 (scrreprt)              that will remove this deprecated code.
 
 Package tocbasic Info: character protrusion at toc deactivated on input line 46
-7.
+9.
 (main.toc)
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [10
+ [40
 
 
 
-]
-runsystem(latexminted cleantemp  --timestamp 20261027222041 FAD58DE7366495DB465
-0CFEFAC2FCD61)...executed.
-
- (main.aux (titul12.aux) (lab_if_2.aux))
+] (main.aux (titul12.aux) (lab_python_if_1.aux) (lab_if_2.aux)
+(lab_python_if.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
@@ -2242,12 +2656,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 59533 strings out of 402986
- 1424379 string characters out of 5452849
- 2372558 words of memory out of 5000000
- 87349 multiletter control sequences out of 15000+600000
- 645509 words of font info for 179 fonts, out of 8000000 for 9000
+ 62323 strings out of 402986
+ 1483010 string characters out of 5452849
+ 2437447 words of memory out of 5000000
+ 90115 multiletter control sequences out of 15000+600000
+ 647899 words of font info for 195 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 124i,20n,121p,11209b,806s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 124i,21n,121p,11209b,848s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (10 pages).
+Output written on main.pdf (40 pages).
