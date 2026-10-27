@@ -347,7 +347,7 @@ autooneside
 \usetikzlibrary{shapes}
 
 
-% ---------- Tables ----------
+%% ---------- Tables ----------
 \renewcommand{\arraystretch}{1.1}
 
 % Format a whole table row: use $ for the first column and ^ for the others, then \rowstyle{\bfseries}
@@ -387,6 +387,7 @@ autooneside
 % Створення команди \LabHeader{Лабораторна}{Варіант}
 \newcommand{\LabHeader}[2]{%
 	\noindent
+	\par\nobreak\vspace{2pt}%
 	\begin{tikzpicture}[remember picture]
 		% 1. Градієнтна смуга зверху
 		\shade[left color=lablightblue, right color=black!90] 
@@ -409,7 +410,7 @@ autooneside
 		\draw[line width=0.8pt, lablightblue] 
 		(0, -1.1cm) -- (\textwidth, -1.1cm);
 	\end{tikzpicture}%
-	\vspace{0.5cm} % Відступ після шапки
+	\nopagebreak % <--- Забороняє розрив і після відступу
 }
 
 
@@ -438,7 +439,9 @@ autooneside
 % enumerate items get circled letters: (A), (B), ...
 \setlist[enumerate]{
 	label=\protect\circled{\Alph*},
-	itemsep=6pt
+	itemsep=6pt,
+	topsep=12pt,     % <--- Відступ ДО та ПІСЛЯ всього списка (наприклад, 12pt, 8pt або 0.5cm)
+	partopsep=0pt
 }
 
 
