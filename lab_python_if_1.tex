@@ -1,5 +1,7 @@
 
 
+\chapter {Лабораторна робота 2 \\ Умовні оператори в Python}
+}
 \LabHeader{2}{ 1}
 
 \begin{enumerate}
@@ -38,11 +40,11 @@ $$
 %\includegraphics[scale=0.5]{15.png}
 %\end{center}
 
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
+\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-3; 3]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
-y(x)=\begin{cases}\cos x, & \mbox{якщо } x<0, \\
-x^3+2x^2+1, & \mbox{якщо } 0\leqslant x<1.5, \\
-0, & \mbox{якщо } x\geqslant 1.5.
+y(x)=\begin{cases}x^2, & \mbox{якщо } x<-1, \\
+1, & \mbox{якщо } -1\leqslant x\leqslant 1, \\
+2x-1, & \mbox{якщо } x>1.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
@@ -53,14 +55,14 @@ $$
 \LabHeader{2}{ 2}
 
 \begin{enumerate}
-\item Дано тризначне натуральне число. Визначити, яка з його цифр більша,   перша чи остання. Вивести відповідне повідомлення.
+\item Дано трицифрове натуральне число. Визначити, яка з його цифр більша: перша чи остання. Вивести відповідне повідомлення.
 
 \item Дано три довільні числа $x$, $y$, $z$. Обчислити та вивести на екран значення виразу
 $$
 F=\frac{\max\{x, y+z\}}{1-\min\{xy, z\}},
 $$
 округляючи його до цілого.
-%\item Даны коэффициенты $a$ и $b$ уравнения прямой $y=ax+b$, а также координаты точки $M\left(x_0, y_0\right)$. Верно ли, что точка $M$ лежит на данной прямой?
+%
 
 \item Точка на площині задається своїми координатами $(x, y)$. Визначити, чи ця точка потрапляє в заштриховану область $\mathcal{D}$.
 \begin{center}
@@ -90,11 +92,11 @@ $$
 %\includegraphics[scale=0.5]{11.png}
 %\end{center}
 
-\item Згенерувати за допомогою модуля {\\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
+\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-4; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
-y(x)=\begin{cases}\cos x, & \mbox{якщо } x<0, \\
-x^3+2x^2+1, & \mbox{якщо } 0\leqslant x<1.5, \\
-0, & \mbox{якщо } x\geqslant 1.5.
+y(x)=\begin{cases}\mathrm{e}^{x}, & \mbox{якщо } x<0, \\
+1-x^2, & \mbox{якщо } 0\leqslant x<1, \\
+\ln x, & \mbox{якщо } x\geqslant 1.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
@@ -106,7 +108,7 @@ $$
 \LabHeader{2}{ 3}
 
 \begin{enumerate}
-\item Дано тризначне натуральне число. Чи вірно, що одна з його цифр більша за суму двох інших?
+\item Дано трицифрове натуральне число. Чи вірно, що одна з його цифр більша за суму двох інших?
 
 \item Дано три довільні числа $x$, $y$, $z$. Обчислити та вивести на екран значення виразу
 $$
@@ -114,7 +116,7 @@ F=\frac{\max\{xyz, xz\}}{1+\min\{x, y\}},
 $$
 округляючи його до цілого.
 
-\item Точка на площині задається своїми координатами $(x, y)$. Визначити, чи ця точка потрапляє в заштриховану область$\mathcal{D}$.
+\item Точка на площині задається своїми координатами $(x, y)$. Визначити, чи ця точка потрапляє в заштриховану область $\mathcal{D}$.
 \begin{center}
 \begin{tikzpicture}[scale=0.9]
 %graph
@@ -144,11 +146,11 @@ $$
 %\includegraphics[scale=0.5]{12.png}
 %\end{center}
 
-\item Згенерувати за допомогою модуля {\\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
+\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-5; 5]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
-y(x)=\begin{cases}\ln (-2x), & \mbox{якщо } x<-0.5, \\
-0, \mbox{якщо } -0.5\leqslant x\leqslant 1, \\
-\sin(1-x), & \mbox{якщо } x>1.
+y(x)=\begin{cases}x^2-4, & \mbox{якщо } x<-2, \\
+4-x^2, & \mbox{якщо } -2\leqslant x<2, \\
+x-2, & \mbox{якщо } x\geqslant 2.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
@@ -159,7 +161,7 @@ $$
 \LabHeader{2}{ 4}
 
 \begin{enumerate}
-\item Дано тризначне натуральне число. Чи вірно, що добуток його цифр кратний 4?
+\item Дано трицифрове натуральне число. Чи вірно, що добуток його цифр кратний 4?
 
 \item Дано три довільні числа $x$, $y$, $z$. Обчислити та вивести на екран значення виразу
 $$
@@ -193,11 +195,11 @@ $$
 %\includegraphics[scale=0.8]{14.png}
 %\end{center}
 
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
+\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [0; 6]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
-y(x)=\begin{cases}\cos x, & \mbox{якщо } x<0, \\
-x^3+2x^2+1, & \mbox{якщо } 0\leqslant x<1.5, \\
-0, & \mbox{якщо } x\geqslant 1.5.
+y(x)=\begin{cases}\sqrt{x}, & \mbox{якщо } x<1, \\
+\dfrac{1}{x}, & \mbox{якщо } 1\leqslant x\leqslant 4, \\
+\dfrac{x}{16}, & \mbox{якщо } x>4.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
@@ -208,7 +210,7 @@ $$
 \LabHeader{2}{ 5}
 
 \begin{enumerate}
-\item Дане ціле число. Чи правда, що воно тризначне?
+\item Дано ціле число. Чи правда, що воно трицифрове?
 
 \item Дано три довільні числа $x$, $y$, $z$. Обчислити та вивести на екран значення виразу
 $$
@@ -221,11 +223,11 @@ $$
 \includegraphics[width=0.5\textwidth]{2.png}
 \end{center}
 
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
+\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-1; 4]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
-y(x)=\begin{cases}\ln (-2x), & \mbox{якщо } x<-0.5, \\
-0, \mbox{якщо } -0.5\leqslant x\leqslant 1, \\
-\sin(1-x), & \mbox{якщо } x>1.
+y(x)=\begin{cases}x^3, & \mbox{якщо } x<0, \\
+x^2, & \mbox{якщо } 0\leqslant x<2, \\
+2x, & \mbox{якщо } x\geqslant 2.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
@@ -252,9 +254,9 @@ $$
 
 \item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
-y(x)=\begin{cases}\cos x, & \mbox{якщо } x<0, \\
-x^3+2x^2+1, & \mbox{якщо } 0\leqslant x<1.5, \\
-0, & \mbox{якщо } x\geqslant 1.5.
+y(x)=\begin{cases}\sin x, & \mbox{якщо } x<0, \\
+x^2, & \mbox{якщо } 0\leqslant x<1, \\
+\sqrt{x}, & \mbox{якщо } x\geqslant 1.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
@@ -266,7 +268,7 @@ $$
 \LabHeader{2}{ 7}
 
 \begin{enumerate}
-\item Дане ціле число. Чи правда, що воно тризначне?
+\item Дано ціле число. Чи правда, що воно двозначне?
 
 \item Дано три довільні числа $x$, $y$, $z$. Обчислити та вивести на екран значення виразу
 $$
@@ -300,11 +302,11 @@ $$
 %\includegraphics[scale=0.8]{14.png}
 %\end{center}
 
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
+\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-3; 5]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
-y(x)=\begin{cases}\ln (-2x), & \mbox{якщо } x<-0.5, \\
-0, \mbox{якщо } -0.5\leqslant x\leqslant 1, \\
-\sin(1-x), & \mbox{якщо } x>1.
+y(x)=\begin{cases}x+2, & \mbox{якщо } x<-1, \\
+\dfrac{2}{x+3}, & \mbox{якщо } -1\leqslant x\leqslant 1, \\
+\dfrac{1}{x+1}, & \mbox{якщо } x>1.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
@@ -315,7 +317,7 @@ $$
 \LabHeader{2}{ 8}
 
 \begin{enumerate}
-\item Дано тризначне натуральне число. Чи вірно, що воно є па\-лін\-дро\-мом\footnote[1]{\textbf{Паліндромом} називається число, яке дорівнює самому собі при прочитанні праворуч наліво. Наприклад, 121, 4554, 60606.}?
+\item Дано трицифрове натуральне число. Чи вірно, що воно є па\-лін\-дро\-мом\footnote[1]{\textbf{Паліндромом} називається число, яке дорівнює самому собі при читанні справа наліво. Наприклад, 121, 4554, 60606.}?
 
 \item Дано три довільні числа $x$, $y$, $z$. Обчислити та вивести на екран значення виразу
 $$
@@ -323,18 +325,18 @@ F=\frac{1+\max\{xyz, x+y+z\}}{1-\min\{x, y\}},
 $$
 округляючи його до цілого.
 
-\item Крапка на площині задається своїми координатами $(x, y)$. Визначити, чи ця точка потрапляє в заштриховану частину площини.
+\item Точка на площині задається своїми координатами $(x, y)$. Визначити, чи ця точка потрапляє в заштриховану частину площини.
 \begin{center}
-\includegraphics[width=0.5\textwidth]{3.png}
+\includegraphics[width=0.4\textwidth]{3.png}
 \end{center}
 
-\clearpage
 
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
+
+\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-4; 4]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
 y(x)=\begin{cases}\cos x, & \mbox{якщо } x<0, \\
-x^3+2x^2+1, & \mbox{якщо } 0\leqslant x<1.5, \\
-0, & \mbox{якщо } x\geqslant 1.5.
+1-\dfrac{x}{2}, & \mbox{якщо } 0\leqslant x\leqslant 2, \\
+\ln (x-1), & \mbox{якщо } x>2.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
@@ -346,7 +348,7 @@ $$
 \LabHeader{2}{ 9}
 
 \begin{enumerate}
-\item Дано тризначне натуральне число. Чи правильно, що його цифри різні?
+\item Дано трицифрове натуральне число. Чи правильно, що його цифри різні?
 
 \item Дано три довільні числа $x$, $y$, $z$. Обчислити та вивести на екран значення виразу
 $$
@@ -391,11 +393,11 @@ $$
 %\includegraphics[scale=0.5]{11.png}
 %\end{center}
 
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
+\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 6]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
-y(x)=\begin{cases}\ln (-2x), & \mbox{якщо } x<-0.5, \\
-0, \mbox{якщо } -0.5\leqslant x\leqslant 1, \\
-\sin(1-x), & \mbox{якщо } x>1.
+y(x)=\begin{cases}\mathrm{e}^{x-1}, & \mbox{якщо } x<1, \\
+x^2, & \mbox{якщо } 1\leqslant x\leqslant 3, \\
+3x, & \mbox{якщо } x>3.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
@@ -406,7 +408,7 @@ $$
 \LabHeader{2}{ 10}
 
 \begin{enumerate}
-\item Дано тризначне натуральне число. Чи правильно, що його цифри утворюють арифметичну прогресію?
+\item Дано трицифрове натуральне число. Чи правильно, що його цифри утворюють арифметичну прогресію?
 
 \item Дано три довільні числа $x$, $y$, $z$. Обчислити та вивести на екран значення виразу
 $$
@@ -444,11 +446,11 @@ $$
 %\includegraphics[scale=0.5]{11.png}
 %\end{center}
 
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
+\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-5; 1]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
-y(x)=\begin{cases}\cos x, & \mbox{якщо } x<0, \\
-x^3+2x^2+1, & \mbox{якщо } 0\leqslant x<1.5, \\
-0, & \mbox{якщо } x\geqslant 1.5.
+y(x)=\begin{cases}-\dfrac{1}{x}, & \mbox{якщо } x<-2, \\
+\dfrac{x^2}{8}, & \mbox{якщо } -2\leqslant x\leqslant 0, \\
+\sin x, & \mbox{якщо } x>0.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
@@ -459,7 +461,7 @@ $$
 \LabHeader{2}{ 11}
 
 \begin{enumerate}
-\item Дано тризначне натуральне число. Чи правильно, що його цифри утворюють геометричну прогресію?
+\item Дано трицифрове натуральне число. Чи правильно, що його цифри утворюють геометричну прогресію?
 
 \item Дано три довільні числа $x$, $y$, $z$. Обчислити та вивести на екран значення виразу
 $$
@@ -497,11 +499,11 @@ $$
 %\includegraphics[scale=0.5]{11.png}
 %\end{center}
 
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
+\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-1; 7]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
-y(x)=\begin{cases}\cos x, & \mbox{якщо } x<0, \\
-x^3+2x^2+1, & \mbox{якщо } 0\leqslant x<1.5, \\
-0, & \mbox{якщо } x\geqslant 1.5.
+y(x)=\begin{cases}3-2x, & \mbox{якщо } x<1, \\
+\sqrt{x}, & \mbox{якщо } 1\leqslant x\leqslant 4, \\
+\dfrac{x}{2}, & \mbox{якщо } x>4.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
@@ -551,22 +553,22 @@ $$
 %\includegraphics[scale=0.5]{12.png}
 %\end{center}
 
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
+\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-7; 3]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
-y(x)=\begin{cases}\cos x, & \mbox{якщо } x<0, \\
-x^3+2x^2+1, & \mbox{якщо } 0\leqslant x<1.5, \\
-0, & \mbox{якщо } x\geqslant 1.5.
+y(x)=\begin{cases}-3x, & \mbox{якщо } x<-3, \\
+x^2, & \mbox{якщо } -3\leqslant x\leqslant 0, \\
+x^3, & \mbox{якщо } x>0.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
 \end{enumerate}
 
-\cleardoublepage
+\textbf{}\cleardoublepage
 
 \LabHeader{2}{ 13}
 
 \begin{enumerate}
-\item Дано тризначне натуральне число. Чи вірно, що воно складається лише з парних цифр (0 вважати парною цифрою)?
+\item Дано трицифрове натуральне число. Чи вірно, що воно складається лише з парних цифр (0 вважати парною цифрою)?
 
 \item Дано три довільні числа $x$, $y$, $z$. Обчислити та вивести на екран значення виразу
 $$
@@ -605,11 +607,11 @@ $$
 %\includegraphics[scale=0.5]{12.png}
 %\end{center}
 
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
+\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [0; 8]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
-y(x)=\begin{cases}\ln (-2x), & \mbox{якщо } x<-0.5, \\
-0, \mbox{якщо } -0.5\leqslant x\leqslant 1, \\
-\sin(1-x), & \mbox{якщо } x>1.
+y(x)=\begin{cases}1-x, & \mbox{якщо } x<1, \\
+\ln x, & \mbox{якщо } 1\leqslant x\leqslant \mathrm{e}, \\
+\dfrac{x}{\mathrm{e}}, & \mbox{якщо } x>\mathrm{e}.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
@@ -630,16 +632,15 @@ $$
 
 \item Точка на площині задається своїми координатами $(x, y)$. Визначити, чи ця точка потрапляє в заштриховану частину площини.
 \begin{center}
-\includegraphics[width=0.7\textwidth]{9.png}
+\includegraphics[width=0.4\textwidth]{9.png}
 \end{center}
 
-\clearpage
 
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
+\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-8; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
-y(x)=\begin{cases}\cos x, & \mbox{якщо } x<0, \\
-x^3+2x^2+1, & \mbox{якщо } 0\leqslant x<1.5, \\
-0, & \mbox{якщо } x\geqslant 1.5.
+y(x)=\begin{cases}-\dfrac{4}{x}, & \mbox{якщо } x<-4, \\
+\dfrac{x^2}{16}, & \mbox{якщо } -4\leqslant x\leqslant 0, \\
+\operatorname{arctg} x, & \mbox{якщо } x>0.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
@@ -651,7 +652,7 @@ $$
 \LabHeader{2}{ 15}
 
 \begin{enumerate}
-\item Дано тризначне натуральне число. Чи вірно, що його цифри рас-по-ло-же-ни в порядку убування?
+\item Дано трицифрове натуральне число. Чи вірно, що його цифри розташовані в порядку спадання?
 
 \item Дано три довільні числа $x$, $y$, $z$. Обчислити та вивести на екран значення виразу
 $$
@@ -664,145 +665,13 @@ $$
 \includegraphics[width=0.7\textwidth]{10.png}
 \end{center}
 
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
+\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-6; 6]$ і вивести на екран значення функції $y(x_0)$, якщо
 $$
-y(x)=\begin{cases}\ln (-2x), & \mbox{якщо } x<-0.5, \\
-0, \mbox{якщо } -0.5\leqslant x\leqslant 1, \\
-\sin(1-x), & \mbox{якщо } x>1.
+y(x)=\begin{cases}-x-1, & \mbox{якщо } x<-2, \\
+\dfrac{x^2}{4}, & \mbox{якщо } -2\leqslant x\leqslant 2, \\
+\mathrm{e}^{2-x}, & \mbox{якщо } x>2.
 \end{cases}
 $$
 Відповідь округлити до тисячних.
 \end{enumerate}
 
-\cleardoublepage
-
-\LabHeader{2}{ 16}
-
-\begin{enumerate}
-\item Дано тризначне натуральне число. Чи вірно, що його друга цифра точно дорівнює сумі першої і третьої?
-
-\item Дано три довільні числа $x$, $y$, $z$. Обчислити та вивести на екран значення виразу
-$$
-F=\frac{\max\{x, y\}}{1-\min\{xy, yz\}},
-$$
-округляючи його до цілого.
-
-\item Крапка на площині задається своїми координатами $(x, y)$. Визначити, чи ця точка потрапляє в заштриховану область $\mathcal{D}$.
-\begin{center}
-\begin{tikzpicture}[scale=0.9]
-%graph
-\draw[draw=Gainsboro,fill=Gainsboro] 
-    plot[smooth,samples=100,domain=-2:0] (\x,{-sqrt(4-\x*\x)}) -- 
-    plot[smooth,samples=100,domain=0:2] (\x,{0});
-\draw[draw=Gainsboro,fill=Gainsboro] plot[smooth,samples=100,domain=0:2] (\x,{sqrt(4-\x*\x)}) -- 
-    plot[smooth,samples=100,domain=-2:0] (\x,{0});
-%\draw[domain=0:4] plot (\x,{1});
-\draw[samples=100,domain=-2:0,very thick] plot (\x,{-sqrt(4-\x*\x)});
-\draw[samples=100,domain=0:2,very thick] plot (\x,{sqrt(4-\x*\x)});
-%coordinate grid
-\draw[->,>=Stealth] (-2.25,0)--(2.25,0) node[above right]{$x$};
-\draw[->,>=Stealth] (0,-2.25)--(0,2.25) node[above left]{$y$};
-\foreach \x in {-2,-1,1,2}
-    \draw (\x,2pt)--(\x,-2pt) node[below] {\footnotesize{$\x$}};
-\foreach \y/\ytext in {-2,-1,1,2}
-    \draw (2pt,\y)--(-2pt,\y) node[left] {\footnotesize{$\y$}};    
-%labels 
-\node at (.85,.85) {\large{$\mathcal{D}$}};
-\node at (-.85,-.85) {\large{$\mathcal{D}$}};
-\end{tikzpicture}
-\end{center}
-%\begin{center}
-%\includegraphics[scale=0.5]{11.png}
-%\end{center}
-
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
-$$
-y(x)=\begin{cases}\cos x, & \mbox{якщо } x<0, \\
-x^3+2x^2+1, & \mbox{якщо } 0\leqslant x<1.5, \\
-0, & \mbox{якщо } x\geqslant 1.5.
-\end{cases}
-$$
-Відповідь округлити до тисячних.
-\end{enumerate}
-
-\cleardoublepage
-
-\LabHeader{2}{ 17}
-
-\begin{enumerate}
-\item Дано двозначне натуральне число. Чи вірно, що сума його цифр кратна п'яти?
-
-\item Дано три довільні числа $x$, $y$, $z$. Обчислити та вивести на екран значення виразу
-$$
-F=\frac{\max\{x+y+z, z\}}{3-\min\{x, yz\}},
-$$
-округляючи його до цілого.
-
-\item Точка на площині задається своїми координатами $(x, y)$. Визначити, чи ця точка потрапляє в заштриховану область $\mathcal{D}$.
-\begin{center}
-\begin{tikzpicture}[scale=0.9]
-%graph
-\draw[draw=Gainsboro,fill=Gainsboro] 
-    plot[smooth,samples=100,domain=-2:0] (\x,{sqrt(4-\x*\x)}) -- 
-    plot[smooth,samples=100,domain=0:-1] (\x,{sqrt(1-\x*\x)});
-\draw[draw=Gainsboro,fill=Gainsboro] 
-    plot[smooth,samples=100,domain=0:2] (\x,{-sqrt(4-\x*\x)}) -- 
-    plot[smooth,samples=100,domain=1:0] (\x,{-sqrt(1-\x*\x)});
-%\draw[domain=0:4] plot (\x,{1});
-\draw[samples=100,domain=-2:0,very thick] plot (\x,{sqrt(4-\x*\x)});
-\draw[samples=100,domain=0:2,very thick] plot (\x,{-sqrt(4-\x*\x)});
-\draw[samples=100,domain=-1:0,very thick] plot (\x,{sqrt(1-\x*\x)});
-\draw[samples=100,domain=0:1,very thick] plot (\x,{-sqrt(1-\x*\x)});
-%coordinate grid
-\draw[->,>=Stealth] (-2.5,0)--(2.5,0) node[above right]{$x$};
-\draw[->,>=Stealth] (0,-2.5)--(0,2.5) node[above left]{$y$};
-\foreach \x in {-2,-1,1,2}
-    \draw (\x,0) node[below right] {\footnotesize{$\x$}};
-\foreach \y/\ytext in {-2,-1,1,2}
-    \draw (0,\y) node[above left] {\footnotesize{$\y$}};    
-%labels 
-\node at (-1,1) {\large{$\mathcal{D}$}};
-\node at (1,-1) {\large{$\mathcal{D}$}};
-\end{tikzpicture}
-\end{center}
-%\begin{center}
-%\includegraphics[scale=0.5]{12.png}
-%\end{center}
-
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
-$$
-y(x)=\begin{cases}\cos x, & \mbox{якщо } x<0, \\
-x^3+2x^2+1, & \mbox{якщо } 0\leqslant x<1.5, \\
-0, & \mbox{якщо } x\geqslant 1.5.
-\end{cases}
-$$
-Відповідь округлити до тисячних.
-\end{enumerate}
-
-\cleardoublepage
-
-\LabHeader{2}{ 18}
-
-\begin{enumerate}
-\item Дано тризначне натуральне число. Чи вірно, що його цифри рас-по-ло-же-ни в порядку убування?
-
-\item Дано три довільні числа $x$, $y$, $z$. Обчислити та вивести на екран значення виразу
-$$
-F=\frac{\max\{x, z\}-1}{\min\{x+y, y+z\}},
-$$
-округляючи його до цілого.
-
-\item Точка на площині задається своїми координатами $(x, y)$. Визначити, чи ця точка потрапляє в заштриховану частину площини.
-\begin{center}
-\includegraphics[width=0.7\textwidth]{10.png}
-\end{center}
-
-\item Згенерувати за допомогою модуля {\ttfamily random} випадкове дійсне число $x_0\in [-2; 2]$ і вивести на екран значення функції $y(x_0)$, якщо
-$$
-y(x)=\begin{cases}\ln (-2x), & \mbox{якщо } x<-0.5, \\
-0, \mbox{якщо } -0.5\leqslant x\leqslant 1, \\
-\sin(1-x), & \mbox{якщо } x>1.
-\end{cases}
-$$
-Відповідь округлити до тисячних.
-\end{enumerate}

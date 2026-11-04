@@ -1,7 +1,7 @@
 \documentclass[a4paper]{scrreprt} % Рекомендований клас для навчальних видань
 
 % lecture_onu.sty
-% Стильовий файл, адаптований до вимог ОНУ (14 кегель, 1.5 інтервал, поля 2 см)
+% Стильовий файл, адаптований до вимог ОНУ (14 пт, 1.5 інтервал, поля 2 см)
 \ProvidesPackage{lecture_onu}
 
 % !TeX program = xelatex
@@ -89,7 +89,7 @@ autooneside
 
 
 % 7. КОПІРАЙТ: Змінено на українську мову
-\ifoot[\textcopyright~{Платонова Є. В, Страхов Є. М.}]{\textcopyright~{ Платонова Є. В, Страхов Є. М.}}
+\ifoot[\textcopyright~{Платонова Є. В., Страхов Є. М.}]{\textcopyright~{Платонова Є. В., Страхов Є. М.}}
 \cfoot[]{}
 \ofoot[\pagemark]{\pagemark}
 \setkomafont{pageheadfoot}{\footnotesize}
@@ -213,8 +213,8 @@ autooneside
 
 \usepackage{hyperref}
 \hypersetup{
-	pdftitle={Конспект лекцій}, % Змінено заголовок
-	pdfauthor={Євген Страхов}, % Змінено автора
+	pdftitle={Практикум. Збірник завдань до лабораторних робіт},
+	pdfauthor={Євгенія Платонова, Євген Страхов},
 	unicode=true,
 	colorlinks=true,
 	bookmarks=true,
@@ -328,7 +328,7 @@ autooneside
 		]
 		{\normalsize\bfseries\color{MidnightBlue}\fontspec{Exo 2 Semi Bold Expanded}
 			Євген Страхов\\[-5\jot]
-			Одеський національний університет, 2017} % Змінено рік
+			Одеський національний університет, 2026}
 	\end{tcolorbox}
 }
 
@@ -455,18 +455,23 @@ autooneside
 	
 \titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
 	
-	
-	
+		% === ЗМІСТ ===
+		\tableofcontents
 	
 	% === ОСНОВНИЙ ТЕКСТ ЛЕКЦІЇ ===
-	% Вміст із файлу l1.tex:
+	% Підключені файли:
 	\include{titul12}
 %	\include{lab_in_out}
-    \include{lab_python_if_1}
-	\include{lab_if_2}
-		\include{lab_python_if}
-	% === ЗМІСТ ===
-	\tableofcontents
+%    \include{lab_python_if_1}
+	%\include{lab_if_2}
+	%	\include{lab_python_if}
+	
+	
+%ниже непорверено ші на укрмову	
+%\include{lab_for1}
+\include{lab_for2} % этот вызывает ошибку
+%\include{lab_while}
+
 	
 
 	

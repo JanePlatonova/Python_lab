@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.11.12)  27 OCT 2026 23:21
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.11.12)  3 NOV 2026 17:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1760,10 +1760,10 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count442
 )) (main.aux
-(titul12.aux)
 Package babel Info: 'ukrainian' activates 'ukrainian' shorthands.
-(babel)             Reported on input line 11.
- (lab_python_if_1.aux))
+(babel)             Reported on input line 10.
+
+(titul12.aux) (lab_for2.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 449.
@@ -1930,9 +1930,105 @@ your preamble.
  on input line 449.
 
 Package hyperref Info: Link coloring ON on input line 449.
+
+Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makeschapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makeschapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+Package tocbasic Info: character protrusion at toc deactivated on input line 45
+9.
+(main.toc)
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+LaTeX Font Info:    Calculating math sizes for size <12.77509> on input line 46
+3.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <12.77509> not available
+(Font)              size <12> substituted on input line 463.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <12.77509> not available
+(Font)              size <12> substituted on input line 463.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 463
+.
+(D:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(D:\Program Files\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 463
+.
+
+(D:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(D:\Program Files\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 46
+3.
+
+(D:\Program Files\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <12.77509> not available
+(Font)              size <12> substituted on input line 463.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <12.77509> not available
+(Font)              size <12> substituted on input line 463.
+
+(D:\Program Files\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+
+Package scrlayer-scrpage Warning: \headheight to low.
+(scrlayer-scrpage)                At least 19.16255pt needed,
+(scrlayer-scrpage)                but only 17.0pt found.
+(scrlayer-scrpage)                I'll enlarge \headheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting geometry's option
+(scrlayer-scrpage)                `head=19.16255pt'.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 4
+63.
+
+
+Overfull \vbox (2.16255pt too high) has occurred while \output is active []
+
+LaTeX Font Info:    Calculating math sizes for size <11.66681> on input line 46
+3.
+
+
+Package scrlayer-scrpage Warning: \footheight to low.
+(scrlayer-scrpage)                At least 17.50014pt needed,
+(scrlayer-scrpage)                but only 17.0pt found.
+(scrlayer-scrpage)                I'll enlarge \footheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., using
+(scrlayer-scrpage)                  \setlength{\footheight}{17.50014pt}
+(scrlayer-scrpage)                in your preamble.
+(scrlayer-scrpage)                I'll also increase \footskip on input line 46
+3.
+
+[1
+
+
+]
 \openout2 = `titul12.aux'.
 
-(titul12.tex
+ (titul12.tex
 Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input l
 ine 4.
  (D:\Program Files\MiKTeX\tex/latex/koma-script\scrsize12pt.clo
@@ -1943,40 +2039,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `CourierNew' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-[1
-
+ [2
 
 
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 117
-.
- (D:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(D:\Program Files\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 117
-.
-
-(D:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(D:\Program Files\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 11
-7.
-
-(D:\Program Files\MiKTeX\tex/latex/jknappen\ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-(D:\Program Files\MiKTeX\tex/latex/microtype\mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-) [2]
+Package babel Info: 'ukrainian' activates 'ukrainian' shorthands.
+(babel)             Reported on input line 145.
+ [3]
 ! Missing } inserted.
 <inserted text> 
                 }
@@ -1989,109 +2059,133 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 )
-\openout2 = `lab_python_if_1.aux'.
+\openout2 = `lab_for2.aux'.
 
- (lab_python_if_1.tex
+ (lab_for2.tex
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 3--4
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 2--3
 [][] 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 8.
-LaTeX Font Info:    Calculating math sizes for size <11.66681> on input line 30
-.
-LaTeX Font Info:    Calculating math sizes for size <16.79996> on input line 34
-.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 6.
+\pydata@fh@0=\write8
+\openout8 = `_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted'.
 
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16.79996> not available
-(Font)              size <17.28> substituted on input line 34.
+runsystem(latexminted config  --timestamp 20261103172131 FAD58DE7366495DB4650CF
+EFAC2FCD61)...executed.
 
 
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16.79996> not available
-(Font)              size <17.28> substituted on input line 34.
+! Package minted Error: minted v3+ executable is not installed or is not added 
+to PATH; or MiKTeX is being used with -aux-directory or -output-directory witho
+ut setting a TEXMF_OUTPUT_DIRECTORY environment variable.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...означаючи символом \mintinline{python}{'+'}
+                                                   ті поля, куди <<б'є>> тур...
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
 
 
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <16.79996> not available
-(Font)              size <17.28> substituted on input line 34.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16.79996> not available
-(Font)              size <17.28> substituted on input line 34.
-
-LaTeX Font Info:    Calculating math sizes for size <12.77509> on input line 51
-.
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <12.77509> not available
-(Font)              size <12> substituted on input line 51.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <12.77509> not available
-(Font)              size <12> substituted on input line 51.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <12.77509> not available
-(Font)              size <12> substituted on input line 51.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <12.77509> not available
-(Font)              size <12> substituted on input line 51.
-
-
-Package scrlayer-scrpage Warning: \headheight to low.
-(scrlayer-scrpage)                At least 19.16255pt needed,
-(scrlayer-scrpage)                but only 17.0pt found.
-(scrlayer-scrpage)                I'll enlarge \headheight, for further
-(scrlayer-scrpage)                processing, but you should do this yourself,
-(scrlayer-scrpage)                e.g., setting geometry's option
-(scrlayer-scrpage)                `head=19.16255pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 5
-1.
-
-
-Overfull \vbox (2.16255pt too high) has occurred while \output is active []
-
-
-
-Package scrlayer-scrpage Warning: \footheight to low.
-(scrlayer-scrpage)                At least 17.50014pt needed,
-(scrlayer-scrpage)                but only 17.0pt found.
-(scrlayer-scrpage)                I'll enlarge \footheight, for further
-(scrlayer-scrpage)                processing, but you should do this yourself,
-(scrlayer-scrpage)                e.g., using
-(scrlayer-scrpage)                  \setlength{\footheight}{17.50014pt}
-(scrlayer-scrpage)                in your preamble.
-(scrlayer-scrpage)                I'll also increase \footskip on input line 51
+! Package minted Error: Missing definition for highlighting style "vs" (minted 
+executable is unavailable or disabled); attempting to substitute fallback style
 .
 
-[3
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...означаючи символом \mintinline{python}{'+'}
+                                                   ті поля, куди <<б'є>> тур...
+(That was another \errmessage.)
 
 
+! Package minted Error: Missing definition for highlighting style "default" (mi
+nted executable is unavailable or disabled); attempting to substitute fallback 
+style.
 
-]
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...означаючи символом \mintinline{python}{'+'}
+                                                   ті поля, куди <<б'є>> тур...
+(That was another \errmessage.)
+
+
+! Package minted Error: Cannot highlight code (minted executable is unavailable
+ or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...означаючи символом \mintinline{python}{'+'}
+                                                   ті поля, куди <<б'є>> тур...
+(That was another \errmessage.)
+
+
+! Package minted Error: Cannot highlight code (minted executable is unavailable
+ or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...> тура, і символом \mintinline{python}{'-'}
+                                                   "--- всі інші поля.
+(That was another \errmessage.)
+
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 53--54
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 22--23
 [][] 
  []
 
+File: trnum.png Graphic file (type bmp)
+<trnum.png>
 [4
 
 
+
 ]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 106--107
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 42--43
 [][] 
  []
 
-[5
+File: Py.png Graphic file (type bmp)
+<Py.png>
 
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 78--79
+[][] 
+ []
 
-]
+[5]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 107--108
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 130--131
+[][] 
+ []
+
+[6]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -2099,549 +2193,152 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 159--160
 [][] 
  []
 
-[6
-
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 208--209
-[][] 
- []
-
-File: 2.png Graphic file (type bmp)
-<2.png>
-[7
-
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 237--238
-[][] 
- []
-
-File: 1.png Graphic file (type bmp)
-<1.png>
-[8
-
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 266--267
-[][] 
- []
-
-[9
-
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 315--316
-[][] 
- []
-
-File: 3.png Graphic file (type bmp)
-<3.png>
-[10
-
-
-] [11
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 346--347
-[][] 
- []
-
-[12
-
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 406--407
-[][] 
- []
-
-[13
-
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 459--460
-[][] 
- []
-
-[14
-
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 512--513
-[][] 
- []
-
-[15
-
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 566--567
-[][] 
- []
-
-[16
-
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 620--621
-[][] 
- []
-
-File: 9.png Graphic file (type bmp)
-<9.png>
-[17
-
-
-] [18
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 651--652
-[][] 
- []
-
-File: 10.png Graphic file (type bmp)
-<10.png>
-[19
-
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 679--680
-[][] 
- []
-
-[20
-
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 730--731
-[][] 
- []
-
-[21
-
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 784--785
-[][] 
- []
-
-File: 10.png Graphic file (type bmp)
-<10.png>
-) [22
-
-
-]
-\openout2 = `lab_if_2.aux'.
-
- (lab_if_2.tex
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 6--7
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 17--18
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 28--29
-[][] 
- []
-
-[23
-
-
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 39--40
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 57--58
-[][] 
- []
-
-[24]
-Overfull \hbox (3.66338pt too wide) in paragraph at lines 61--62
-\TU/TimesNewRoman(0)/m/n/16.79996 визначити, чи він є «щасливим». Квиток вважає
-ться «щасливим»,
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 68--69
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 79--80
-[][] 
- []
-
-[25]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 90--91
-[][] 
- []
-
-
-Overfull \hbox (2.44933pt too wide) in paragraph at lines 96--97
-\TU/TimesNewRoman(0)/m/n/16.79996 такого трикутника не існує, вивести повідомле
-ння. Програма має
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 102--103
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 113--114
-[][] 
- []
-
-[26]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 132--133
-[][] 
- []
-
-
-Overfull \hbox (54.71385pt too wide) in paragraph at lines 137--138
-\TU/TimesNewRoman(0)/m/n/16.79996 «yes», якщо така дата існує (наприклад, 12.02
-.1999 [] «yes», 22.13.2001 []
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 144--145
-[][] 
- []
-
-
-Overfull \hbox (0.88878pt too wide) in paragraph at lines 149--150
-\TU/TimesNewRoman(0)/m/n/16.79996 північ, «12» [] захід, «13» [] південь, «14» 
-[] схід) і приймати три
- []
-
-
-Overfull \hbox (14.46031pt too wide) in paragraph at lines 149--150
-\TU/TimesNewRoman(0)/m/n/16.79996 цифрові команди: 0 [] продовжувати рух, 1 [] 
-поворот наліво, $\OMS/cmsy/m/n/17.28 ^^@\OT1/cmr/m/n/17.28 1$ []
- []
-
-[27]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 156--157
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 167--168
-[][] 
- []
-
-[28]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 178--179
-[][] 
- []
-
-) [29]
-\openout2 = `lab_python_if.aux'.
-
- (lab_python_if.tex
-Overfull \hbox (27.08757pt too wide) in paragraph at lines 4--5
-\TU/TimesNewRoman(0)/m/n/16.79996 При виконанні лабораторних робіт з теми \TU/T
-imesNewRoman(0)/b/n/16.79996 «Умовні оператори в Python»
- []
-
 (D:\Program Files\MiKTeX\tex/latex/microtype\mt-TU-empty.cfg
 File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonsta
 ndard glyph set (RS)
 )
-Overfull \hbox (32.26564pt too wide) in paragraph at lines 9--10
-[]\TU/TimesNewRoman(0)/m/n/16.79996 Для натуральних та цілих чисел використовуй
-те \TU/CourierNew(0)/m/n/16.79996 int(input())\TU/TimesNewRoman(0)/m/n/16.79996
- . 
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 187--188
+[][] 
  []
 
+[7]
 
-Overfull \hbox (52.2566pt too wide) in paragraph at lines 10--11
-[]\TU/TimesNewRoman(0)/m/n/16.79996 Для дійсних чисел та координат використовуй
-те \TU/CourierNew(0)/m/n/16.79996 float(input())\TU/TimesNewRoman(0)/m/n/16.799
-96 . 
+! LaTeX Error: Environment results undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 \begin{results}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{enumerate} on input line 190 ended by \end{results}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.214 \end{results}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--215
+
  []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 29--30
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 220--221
 [][] 
  []
 
-[30
+
+! LaTeX Error: Environment results undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.231 \begin{results}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
+! LaTeX Error: \begin{enumerate} on input line 223 ended by \end{results}.
 
-]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 \end{results}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[8]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 49--50
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 253--254
 [][] 
  []
 
 
-Overfull \hbox (133.25443pt too wide) in paragraph at lines 54--55
-[]$\OML/cmm/m/it/17.28 k$\TU/TimesNewRoman(0)/b/n/16.79996 -та цифра послідовно
-сті $\OT1/cmr/m/n/17.28 10 [] 99$\TU/TimesNewRoman(0)/b/n/16.79996 . \TU/TimesN
-ewRoman(0)/m/n/16.79996 Нехай у послідовності \TU/CourierNew(0)/m/n/16.79996 10
-111213...979899
- []
+! Package minted Error: Cannot highlight code (minted executable is unavailable
+ or disabled); attempting to typeset without highlighting.
 
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 61--62
-[][] 
- []
-
-[31]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 73--74
-[][] 
- []
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 ...начаючи символом \mintinline{python}{'+'}
+                                                   ті поля, куди <<б'є>> фер...
+(That was another \errmessage.)
 
 
-Overfull \hbox (11.39735pt too wide) in paragraph at lines 78--79
-[]\TU/TimesNewRoman(0)/b/n/16.79996 Обчислення плати за телефон. \TU/TimesNewRo
-man(0)/m/n/16.79996 Послуги телефонної мережі опла-
- []
+! Package minted Error: Cannot highlight code (minted executable is unavailable
+ or disabled); attempting to typeset without highlighting.
 
-
-Overfull \hbox (3.7903pt too wide) in paragraph at lines 78--79
-\TU/TimesNewRoman(0)/m/n/16.79996 установу норму оплачуються за тарифом $\OML/c
-mm/m/it/17.28 C$ \TU/TimesNewRoman(0)/m/n/16.79996 грн за хвилину. Окрім
- []
-
-[32]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 85--86
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 97--98
-[][] 
- []
-
-[33]
-Overfull \hbox (5.7818pt too wide) in paragraph at lines 102--103
-[]\TU/TimesNewRoman(0)/b/n/16.79996 Периметр і площа трикутника. \TU/TimesNewRo
-man(0)/m/n/16.79996 Дано три довільних числа $\OML/cmm/m/it/17.28 a; b; c$\TU/T
-imesNewRoman(0)/m/n/16.79996 .
- []
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 ...ерзь, і символом \mintinline{python}{'-'}
+                                                   "--- всі інші поля.
+(That was another \errmessage.)
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 114--115
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 275--276
 [][] 
  []
 
+[9]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 126--127
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 298--299
 [][] 
- []
-
-[34]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 138--139
-[][] 
- []
-
-
-Overfull \hbox (1.52092pt too wide) in paragraph at lines 146--147
-[]\TU/TimesNewRoman(0)/m/n/16.79996 Якщо внесено більше грошей, ніж потрібно, н
-адрукувати «Ві-
- []
-
-[35]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 155--156
-[][] 
- []
-
-
-Overfull \hbox (28.55014pt too wide) in paragraph at lines 167--169
-\TU/TimesNewRoman(0)/m/n/16.79996 У відповіді вивести одне з повідомлень: «Сист
-ема не має розв’язків»,
  []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 174--175
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 319--320
 [][] 
  []
 
-[36]
+[10]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 186--187
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 349--350
 [][] 
- []
-
-
-Overfull \hbox (85.00305pt too wide) in paragraph at lines 191--192
-[]$\OML/cmm/m/it/17.28 k$\TU/TimesNewRoman(0)/b/n/16.79996 -та цифра послідовно
-сті $\OT1/cmr/m/n/17.28 0 [] 20$\TU/TimesNewRoman(0)/b/n/16.79996 . \TU/TimesNe
-wRoman(0)/m/n/16.79996 Нехай у послідовності \TU/CourierNew(0)/m/n/16.79996 012
-3...181920
- []
-
-
-Overfull \hbox (44.06055pt too wide) in paragraph at lines 192--193
-[]\TU/TimesNewRoman(0)/b/n/16.79996 Перетин двох відрізків $\OML/cmm/m/it/17.28
- AB$ \TU/TimesNewRoman(0)/b/n/16.79996 та $\OML/cmm/m/it/17.28 CD$\TU/TimesNewR
-oman(0)/b/n/16.79996 . \TU/TimesNewRoman(0)/m/n/16.79996 Дано координати точок 
-$\OML/cmm/m/it/17.28 A; B; C; D$
  []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 198--199
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 372--373
 [][] 
  []
 
-[37]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 209--210
-[][] 
- []
-
-[38]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 221--222
-[][] 
- []
-
-) [39]
-
-Class scrreprt Warning: Redefinition of \@makeschapterhead detected.
-(scrreprt)              Note: KOMA-Script does use styles for commands like
-(scrreprt)              \chapter. Currently it internally still provides and
-(scrreprt)              uses \@makeschapterhead, but a completely different
-(scrreprt)              definition compared to the standard classes.
-(scrreprt)              So redefining or using internal \@makeschapterhead
-(scrreprt)              by users or package authors may already break
-(scrreprt)              KOMA-Script and will not work with a coming version,
-(scrreprt)              that will remove this deprecated code.
-
-Package tocbasic Info: character protrusion at toc deactivated on input line 46
-9.
-(main.toc)
-\tf@toc=\write7
-\openout7 = `main.toc'.
-
- [40
-
-
-
-] (main.aux (titul12.aux) (lab_python_if_1.aux) (lab_if_2.aux)
-(lab_python_if.aux))
+[11]) [12] (main.aux (titul12.aux) (lab_for2.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
@@ -2651,17 +2348,14 @@ L3 programming layer <2020/03/25>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.77509pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 62323 strings out of 402986
- 1483010 string characters out of 5452849
- 2437447 words of memory out of 5000000
- 90115 multiletter control sequences out of 15000+600000
- 647899 words of font info for 195 fonts, out of 8000000 for 9000
+ 59760 strings out of 402986
+ 1430518 string characters out of 5452849
+ 2377022 words of memory out of 5000000
+ 87563 multiletter control sequences out of 15000+600000
+ 644941 words of font info for 184 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 124i,21n,121p,11209b,848s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 124i,21n,121p,11209b,862s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (40 pages).
+Output written on main.pdf (12 pages).
