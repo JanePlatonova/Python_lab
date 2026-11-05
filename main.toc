@@ -1,5 +1,9 @@
 \babel@toc {ukrainian}{}\relax 
-\contentsline {chapter}{\numberline {1}Лабораторна робота 1\\}{4}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Лабораторна робота 2 \\ Умовні оператори в Python}{16}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Лабораторна робота 3\\ Умовні та логічні оператори в Python}{32}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Лабораторна робота 4\\ Складні умови та геометричні задачі}{39}{chapter.4}%
+\contentsline {chapter}{\numberline {1}Лабораторна робота 1\\ Лінійні алгоритми}{4}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Лабораторна робота 2 \\ Умовні оператори в Python}{15}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Лабораторна робота 3\\ Умовні та логічні оператори в Python}{31}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Лабораторна робота 4\\ Складні умови та геометричні задачі}{38}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Лабораторна робота 5\\ Оператор циклу for}{49}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Лабораторна робота 6\\ Вкладені цикли}{59}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Лабораторна робота 7\\ Оператор циклу while}{68}{chapter.7}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -90,3 +90,4 @@ with open('lab_in_out.tex', 'w', encoding='utf-8') as f:
     f.write(text)
 
 print('lab_in_out.tex updated successfully.')
+

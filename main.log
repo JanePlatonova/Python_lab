@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.11.12)  4 NOV 2026 19:50
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.11.12)  5 NOV 2026 22:51
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1763,8 +1763,7 @@ File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 Package babel Info: 'ukrainian' activates 'ukrainian' shorthands.
 (babel)             Reported on input line 10.
 
-(titul12.aux) (lab_in_out.aux) (lab_python_if_1.aux) (lab_if_2.aux)
-(lab_python_if.aux) (lab_for1.aux) (lab_for2.aux) (lab_while.aux))
+(titul12.aux) (lab_while.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 449.
@@ -2044,18 +2043,18 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 ]
-Overfull \hbox (9.45056pt too wide) in paragraph at lines 125--126
+Overfull \hbox (9.8796pt too wide) in paragraph at lines 124--125
 []\TU/TimesNewRoman(0)/b/n/14.4 XXX  []\TU/TimesNewRoman(0)/m/n/14.4 Основи про
-грамування мовою Python. Структурне програмування [Еле-
+грамування мовою Python. Структурне програмування. Пра-
  []
 
 Package babel Info: 'ukrainian' activates 'ukrainian' shorthands.
-(babel)             Reported on input line 145.
+(babel)             Reported on input line 144.
 [3]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.145 \end{titlepage}
+l.144 \end{titlepage}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2083,30 +2082,38 @@ Class scrreprt Warning: Redefinition of \@makechapterhead detected.
 (scrreprt)              KOMA-Script and will not work with a coming version,
 (scrreprt)              that will remove this deprecated code.
 
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 7--8
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 46--47
-[][] 
- []
-
-[4
+(D:\Program Files\MiKTeX\tex/latex/microtype\mt-TU-empty.cfg
+File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonsta
+ndard glyph set (RS)
+) [4
 
 
 
 
 ]
+Overfull \hbox (140.32373pt too wide) in paragraph at lines 29--30
+[]\TU/TimesNewRoman(0)/m/n/14 Супроводжуйте кожне виведення зрозумілим текстови
+м поясненням: \TU/CourierNew(0)/m/n/14 print("Результат: z)\TU/TimesNewRoman(0)
+/m/n/14 . 
+ []
+
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 85--86
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 36--37
+[][] 
+ []
+
+
+Overfull \hbox (4.01468pt too wide) in paragraph at lines 61--62
+[]\TU/TimesNewRoman(0)/m/it/14 Усі введення та результати роботи програми оформ
+люйте зрозумілими текс-
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 75--76
 [][] 
  []
 
@@ -2118,94 +2125,108 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=38.32512pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
-18.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 9
+5.
 
 
 Overfull \vbox (19.16257pt too high) has occurred while \output is active []
 
 
 [5]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 124--125
-[][] 
+Overfull \hbox (4.01468pt too wide) in paragraph at lines 101--102
+[]\TU/TimesNewRoman(0)/m/it/14 Усі введення та результати роботи програми оформ
+люйте зрозумілими текс-
  []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 160--161
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 114--115
 [][] 
+ []
+
+
+Overfull \hbox (4.01468pt too wide) in paragraph at lines 140--141
+[]\TU/TimesNewRoman(0)/m/it/14 Усі введення та результати роботи програми оформ
+люйте зрозумілими текс-
  []
 
 [6]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 199--200
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 153--154
+[][] 
+ []
+
+
+Overfull \hbox (4.01468pt too wide) in paragraph at lines 175--176
+[]\TU/TimesNewRoman(0)/m/it/14 Усі введення та результати роботи програми оформ
+люйте зрозумілими текс-
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 189--190
 [][] 
  []
 
 [7]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 242--243
-[][] 
+Overfull \hbox (4.01468pt too wide) in paragraph at lines 215--216
+[]\TU/TimesNewRoman(0)/m/it/14 Усі введення та результати роботи програми оформ
+люйте зрозумілими текс-
  []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 285--286
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 228--229
 [][] 
+ []
+
+
+Overfull \hbox (4.01468pt too wide) in paragraph at lines 254--255
+[]\TU/TimesNewRoman(0)/m/it/14 Усі введення та результати роботи програми оформ
+люйте зрозумілими текс-
  []
 
 [8]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 325--326
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 271--272
 [][] 
  []
 
-! Extra }, or forgotten \endgroup.
-l.349 ...жави Філіппіни (43\,079 осіб на км$^2$).}
-                                                  .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
-! Undefined control sequence.
-l.351 {\itshapeНамагайтесь
-                           супроводжувати введення та виведення текстовими п...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Overfull \hbox (4.01468pt too wide) in paragraph at lines 297--298
+[]\TU/TimesNewRoman(0)/m/it/14 Усі введення та результати роботи програми оформ
+люйте зрозумілими текс-
+ []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 364--365
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 314--315
 [][] 
  []
 
 [9]
+Overfull \hbox (4.01468pt too wide) in paragraph at lines 341--342
+[]\TU/TimesNewRoman(0)/m/it/14 Усі введення та результати роботи програми оформ
+люйте зрозумілими текс-
+ []
+
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 405--406
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 354--355
 [][] 
  []
 
 ! Undefined control sequence.
-l.430 {\itshapeНамагайтеся
+l.380 {\itshapeНамагайтесь
                            супроводжувати введення та виведення текстовими п...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2213,53 +2234,96 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 393--394
+[][] 
+ []
+
 [10]
-File: Py.png Graphic file (type bmp)
-<Py.png>
+Overfull \hbox (4.01468pt too wide) in paragraph at lines 419--420
+[]\TU/TimesNewRoman(0)/m/it/14 Усі введення та результати роботи програми оформ
+люйте зрозумілими текс-
+ []
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 443--444
-[][] 
+
+Overfull \hbox (3.87303pt too wide) in paragraph at lines 421--422
+[]\TU/TimesNewRoman(0)/b/n/14 Номер квитка. \TU/TimesNewRoman(0)/m/n/14 Дано ше
+стицифрове натуральне число [] номер проїзного кви-
  []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 481--482
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 434--435
 [][] 
  []
+
+! Undefined control sequence.
+l.459 {\itshapeУсі
+                   введення та результати роботи програми оформлюйте зрозумі...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 [11]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 520--521
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 472--473
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 510--511
 [][] 
  []
 
 [12]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 559--560
-[][] 
+Overfull \hbox (4.01468pt too wide) in paragraph at lines 536--537
+[]\TU/TimesNewRoman(0)/m/it/14 Усі введення та результати роботи програми оформ
+люйте зрозумілими текс-
  []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 594--595
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 549--550
 [][] 
+ []
+
+
+Overfull \hbox (4.01468pt too wide) in paragraph at lines 575--576
+[]\TU/TimesNewRoman(0)/m/it/14 Усі введення та результати роботи програми оформ
+люйте зрозумілими текс-
+ []
+
+
+Overfull \hbox (1.20778pt too wide) in paragraph at lines 577--578
+[]\TU/TimesNewRoman(0)/b/n/14 Сума квадратів цифр. \TU/TimesNewRoman(0)/m/n/14 
+Дано трицифрове натуральне число. Вивести на екран
  []
 
 [13]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 633--634
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 588--589
 [][] 
  []
 
-[14]) [15]
+
+Overfull \hbox (4.01468pt too wide) in paragraph at lines 610--611
+[]\TU/TimesNewRoman(0)/m/it/14 Усі введення та результати роботи програми оформ
+люйте зрозумілими текс-
+ []
+
+) [14]
 \openout2 = `lab_python_if_1.aux'.
 
  (lab_python_if_1.tex
@@ -2279,47 +2343,61 @@ Class scrreprt Warning: Redefinition of \@makechapterhead detected.
 (scrreprt)              KOMA-Script and will not work with a coming version,
 (scrreprt)              that will remove this deprecated code.
 
-! Too many }'s.
-l.4 }
-     
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
+
+Overfull \hbox (22.7577pt too wide) in paragraph at lines 32--33
+[]\TU/TimesNewRoman(0)/m/n/14 Для експоненти $[][]$ підключіть модуль \TU/Couri
+erNew(0)/m/n/14 math \TU/TimesNewRoman(0)/m/n/14 і використовуйте \TU/CourierNe
+w(0)/m/n/14 math.exp(x)\TU/TimesNewRoman(0)/m/n/14 . 
+ []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 5--6
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 37--38
 [][] 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <16.79996> on input line 36
+[15
+
+
+
+
+]
+LaTeX Font Info:    Calculating math sizes for size <16.79996> on input line 68
 .
 
+
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16.79996> not available
-(Font)              size <17.28> substituted on input line 36.
+(Font)              size <17.28> substituted on input line 68.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16.79996> not available
-(Font)              size <17.28> substituted on input line 36.
+(Font)              size <17.28> substituted on input line 68.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <16.79996> not available
-(Font)              size <17.28> substituted on input line 36.
+(Font)              size <17.28> substituted on input line 68.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16.79996> not available
-(Font)              size <17.28> substituted on input line 36.
+(Font)              size <17.28> substituted on input line 68.
 
-[16
-
-
-
-
-] [17]
+[16]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 55--56
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 87--88
+[][] 
+ []
+
+[17
+
+
+]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 140--141
 [][] 
  []
 
@@ -2330,7 +2408,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 55--56
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 108--109
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 193--194
 [][] 
  []
 
@@ -2341,10 +2419,12 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 108--109
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 161--162
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 242--243
 [][] 
  []
 
+File: 2.png Graphic file (type bmp)
+<2.png>
 [20
 
 
@@ -2352,12 +2432,12 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 161--162
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 210--211
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 271--272
 [][] 
  []
 
-File: 2.png Graphic file (type bmp)
-<2.png>
+File: 1.png Graphic file (type bmp)
+<1.png>
 [21
 
 
@@ -2365,12 +2445,10 @@ File: 2.png Graphic file (type bmp)
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 239--240
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 300--301
 [][] 
  []
 
-File: 1.png Graphic file (type bmp)
-<1.png>
 [22
 
 
@@ -2378,10 +2456,12 @@ File: 1.png Graphic file (type bmp)
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 268--269
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 349--350
 [][] 
  []
 
+File: 3.png Graphic file (type bmp)
+<3.png>
 [23
 
 
@@ -2389,12 +2469,10 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 268--269
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 317--318
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 380--381
 [][] 
  []
 
-File: 3.png Graphic file (type bmp)
-<3.png>
 [24
 
 
@@ -2402,7 +2480,7 @@ File: 3.png Graphic file (type bmp)
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 348--349
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 440--441
 [][] 
  []
 
@@ -2413,7 +2491,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 348--349
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 408--409
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 493--494
 [][] 
  []
 
@@ -2424,7 +2502,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 408--409
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 461--462
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 546--547
 [][] 
  []
 
@@ -2435,7 +2513,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 461--462
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 514--515
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 600--601
 [][] 
  []
 
@@ -2446,10 +2524,12 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 514--515
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 568--569
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 654--655
 [][] 
  []
 
+File: 9.png Graphic file (type bmp)
+<9.png>
 [29
 
 
@@ -2457,26 +2537,13 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 568--569
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 622--623
-[][] 
- []
-
-File: 9.png Graphic file (type bmp)
-<9.png>
-[30
-
-
-]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 652--653
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 684--685
 [][] 
  []
 
 File: 10.png Graphic file (type bmp)
 <10.png>
-) [31
+) [30
 
 
 ]
@@ -2513,7 +2580,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 16--17
 [][] 
  []
 
-[32
+[31
 
 
 
@@ -2533,18 +2600,12 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 38--39
 [][] 
  []
 
-[33]
+[32]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
 Overfull \hbox (34.3432pt too wide) in paragraph at lines 56--57
 [][] 
- []
-
-
-Overfull \hbox (3.66338pt too wide) in paragraph at lines 60--61
-\TU/TimesNewRoman(0)/m/n/16.79996 визначити, чи він є «щасливим». Квиток вважає
-ться «щасливим»,
  []
 
 File: Py.png Graphic file (type bmp)
@@ -2561,7 +2622,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 78--79
 [][] 
  []
 
-[34]
+[33]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -2582,6 +2643,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 101--102
 [][] 
  []
 
+[34]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -2589,7 +2651,6 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 112--113
 [][] 
  []
 
-[35]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -2610,19 +2671,12 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 143--144
 [][] 
  []
 
-
+[35]
 Overfull \hbox (0.88878pt too wide) in paragraph at lines 148--149
 \TU/TimesNewRoman(0)/m/n/16.79996 північ, «12» [] захід, «13» [] південь, «14» 
 [] схід) і приймати три
  []
 
-
-Overfull \hbox (14.46031pt too wide) in paragraph at lines 148--149
-\TU/TimesNewRoman(0)/m/n/16.79996 цифрові команди: 0 [] продовжувати рух, 1 [] 
-поворот наліво, $\OMS/cmsy/m/n/17.28 ^^@\OT1/cmr/m/n/17.28 1$ []
- []
-
-[36]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -2630,6 +2684,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 155--156
 [][] 
  []
 
+[36]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -2637,7 +2692,6 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 166--167
 [][] 
  []
 
-[37]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -2645,7 +2699,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 177--178
 [][] 
  []
 
-) [38]
+) [37]
 \openout2 = `lab_python_if.aux'.
 
  (lab_python_if.tex
@@ -2665,10 +2719,6 @@ Class scrreprt Warning: Redefinition of \@makechapterhead detected.
 (scrreprt)              KOMA-Script and will not work with a coming version,
 (scrreprt)              that will remove this deprecated code.
 
-(D:\Program Files\MiKTeX\tex/latex/microtype\mt-TU-empty.cfg
-File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonsta
-ndard glyph set (RS)
-)
 ! Too many }'s.
 l.24 ^^I}
          
@@ -2682,7 +2732,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 28--29
 [][] 
  []
 
-[39
+[38
 
 
 
@@ -2703,7 +2753,7 @@ ewRoman(0)/m/n/16.79996 Нехай у послідовності \TU/CourierNew(
 111213...979899
  []
 
-[40]
+[39]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -2724,7 +2774,7 @@ Overfull \hbox (11.39735pt too wide) in paragraph at lines 77--78
 man(0)/m/n/16.79996 Послуги телефонної мережі опла-
  []
 
-[41]
+[40]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -2739,7 +2789,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 96--97
 [][] 
  []
 
-[42]
+[41]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -2747,7 +2797,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 113--114
 [][] 
  []
 
-[43]
+[42]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -2762,7 +2812,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 137--138
 [][] 
  []
 
-[44]
+[43]
 Overfull \hbox (1.52092pt too wide) in paragraph at lines 145--146
 []\TU/TimesNewRoman(0)/m/n/16.79996 Якщо внесено більше грошей, ніж потрібно, н
 адрукувати «Ві-
@@ -2775,7 +2825,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 154--155
 [][] 
  []
 
-[45]
+[44]
 Overfull \hbox (28.55014pt too wide) in paragraph at lines 166--168
 \TU/TimesNewRoman(0)/m/n/16.79996 У відповіді вивести одне з повідомлень: «Сист
 ема не має розв’язків»,
@@ -2795,7 +2845,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 185--186
 [][] 
  []
 
-[46]
+[45]
 Overfull \hbox (85.00305pt too wide) in paragraph at lines 190--191
 []$\OML/cmm/m/it/17.28 k$\TU/TimesNewRoman(0)/b/n/16.79996 -та цифра послідовно
 сті $\OT1/cmr/m/n/17.28 0 [] 20$\TU/TimesNewRoman(0)/b/n/16.79996 . \TU/TimesNe
@@ -2825,7 +2875,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 208--209
 [][] 
  []
 
-[47]
+[46]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -2833,32 +2883,34 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 220--221
 [][] 
  []
 
-[48]) [49]
+[47]) [48]
 \openout2 = `lab_for1.aux'.
 
  (lab_for1.tex
-File: Py.png Graphic file (type bmp)
-<Py.png>
+chapter 5.
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 3--4
-[][] 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 1.
+
+
+Class scrreprt Warning: Redefinition of \@makechapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makechapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makechapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+
+Overfull \hbox (7.09984pt too wide) in paragraph at lines 8--9
+[]\TU/TimesNewRoman(0)/m/n/14 Третій аргумент задає крок: наприклад, непарні чи
+сла — \TU/CourierNew(0)/m/n/14 range(1, 100,
  []
 
-File: Py.png Graphic file (type bmp)
-<Py.png>
+[49
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 23--24
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 41--42
-[][] 
- []
-
-[50
 
 
 
@@ -2866,7 +2918,29 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 41--42
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 60--61
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 45--46
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 65--66
+[][] 
+ []
+
+[50]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 83--84
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 102--103
 [][] 
  []
 
@@ -2874,14 +2948,14 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 60--61
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 81--82
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 123--124
 [][] 
  []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 97--98
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 139--140
 [][] 
  []
 
@@ -2889,14 +2963,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 97--98
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 118--119
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 141--142
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 160--161
 [][] 
  []
 
@@ -2904,18 +2971,10 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 141--142
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 158--159
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 183--184
 [][] 
  []
 
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 179--180
-[][] 
- []
-
-[54]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -2923,10 +2982,18 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 200--201
 [][] 
  []
 
+[54]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 220--221
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 221--222
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 242--243
 [][] 
  []
 
@@ -2934,21 +3001,9 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 220--221
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 241--242
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
 Overfull \hbox (34.3432pt too wide) in paragraph at lines 262--263
 [][] 
  []
-
-[56]
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 26
-8.
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
@@ -2957,21 +3012,52 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 283--284
 [][] 
  []
 
-) [57]
-\openout2 = `lab_for2.aux'.
-
- (lab_for2.tex
+[56]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 2--3
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 304--305
 [][] 
  []
 
-\pydata@fh@0=\write8
-\openout8 = `_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted'.
 
-runsystem(latexminted config  --timestamp 20261104195014 FAD58DE7366495DB4650CF
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 31
+0.
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 325--326
+[][] 
+ []
+
+[57]) [58]
+\openout2 = `lab_for2.aux'.
+
+ (lab_for2.tex
+chapter 6.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 2.
+
+
+Class scrreprt Warning: Redefinition of \@makechapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makechapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makechapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+\g__tcobox_out_iow=\write8
+\openout8 = `main.listing'.
+
+\pydata@fh@0=\write9
+\openout9 = `_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted'.
+
+runsystem(latexminted config  --timestamp 20261105225128 FAD58DE7366495DB4650CF
 EFAC2FCD61)...executed.
 
 
@@ -2983,8 +3069,8 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 ...означаючи символом \mintinline{python}{'+'}
-                                                   ті поля, куди <<б'є>> тур...
+l.17   ^^I^^I\end{py}
+                     
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
 Pretend that you're Hercule Poirot: Examine all clues,
@@ -2999,8 +3085,8 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 ...означаючи символом \mintinline{python}{'+'}
-                                                   ті поля, куди <<б'є>> тур...
+l.17   ^^I^^I\end{py}
+                     
 (That was another \errmessage.)
 
 
@@ -3012,8 +3098,8 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 ...означаючи символом \mintinline{python}{'+'}
-                                                   ті поля, куди <<б'є>> тур...
+l.17   ^^I^^I\end{py}
+                     
 (That was another \errmessage.)
 
 
@@ -3024,32 +3110,43 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 ...означаючи символом \mintinline{python}{'+'}
-                                                   ті поля, куди <<б'є>> тур...
-(That was another \errmessage.)
-
-
-! Package minted Error: Cannot highlight code (minted executable is unavailable
- or disabled); attempting to typeset without highlighting.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...> тура, і символом \mintinline{python}{'-'}
-                                                   "--- всі інші поля.
+l.17   ^^I^^I\end{py}
+                     
 (That was another \errmessage.)
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 22--23
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 32--33
 [][] 
  []
 
-File: trnum.png Graphic file (type bmp)
-<trnum.png>
-[58
+
+! Package minted Error: Cannot highlight code (minted executable is unavailable
+ or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...значаючи символом \mintinline{python}{'+'}
+                                                   ті поля, куди <<б'є>> тур...
+(That was another \errmessage.)
+
+
+! Package minted Error: Cannot highlight code (minted executable is unavailable
+ or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ... тура, і символом \mintinline{python}{'-'}
+                                                   "--- всі інші поля.
+(That was another \errmessage.)
+
+[59
+
 
 
 
@@ -3057,29 +3154,16 @@ File: trnum.png Graphic file (type bmp)
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 42--43
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 52--53
 [][] 
  []
 
+File: trnum.png Graphic file (type bmp)
+<trnum.png>
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 78--79
-[][] 
- []
-
-[59]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 107--108
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 130--131
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 72--73
 [][] 
  []
 
@@ -3087,53 +3171,22 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 130--131
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 159--160
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 187--188
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 108--109
 [][] 
  []
 
 [61]
+File: Py.png Graphic file (type bmp)
+<Py.png>
 
-! LaTeX Error: Environment results undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.203 \begin{results}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{enumerate} on input line 190 ended by \end{results}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.214 \end{results}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--215
-
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 137--138
+[][] 
  []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 220--221
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 160--161
 [][] 
  []
 
@@ -3141,7 +3194,60 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 220--221
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 189--190
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 217--218
+[][] 
+ []
+
+[63]
+
+! LaTeX Error: Environment results undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 \begin{results}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{enumerate} on input line 220 ended by \end{results}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.244 \end{results}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--245
+
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
 Overfull \hbox (34.3432pt too wide) in paragraph at lines 250--251
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 280--281
 [][] 
  []
 
@@ -3153,7 +3259,7 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.254 ...начаючи символом \mintinline{python}{'+'}
+l.284 ...начаючи символом \mintinline{python}{'+'}
                                                    ті поля, куди <<б'є>> фер...
 (That was another \errmessage.)
 
@@ -3165,33 +3271,32 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.254 ...ерзь, і символом \mintinline{python}{'-'}
+l.284 ...ерзь, і символом \mintinline{python}{'-'}
                                                    "--- всі інші поля.
 (That was another \errmessage.)
 
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 272--273
-[][] 
- []
-
-[63]
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 295--296
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 316--317
-[][] 
- []
-
 [64]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 302--303
+[][] 
+ []
+
+
+Overfull \hbox (11.96529pt too wide) in paragraph at lines 306--307
+\TU/TimesNewRoman(0)/m/n/14 9. Гравцеві надається три спроби вгадати це число. 
+Під час «діалогу» комп’ютер
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 325--326
+[][] 
+ []
+
+[65]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
@@ -3202,29 +3307,80 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 346--347
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 369--370
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 376--377
 [][] 
  []
 
-[65]) [66]
+[66]
+Overfull \hbox (11.96529pt too wide) in paragraph at lines 393--394
+\TU/TimesNewRoman(0)/m/n/14 9. Гравцеві надається три спроби вгадати це число. 
+Під час «діалогу» комп’ютер
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 399--400
+[][] 
+ []
+
+) [67]
 \openout2 = `lab_while.aux'.
 
  (lab_while.tex
+chapter 7.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 1.
+
+
+Class scrreprt Warning: Redefinition of \@makechapterhead detected.
+(scrreprt)              Note: KOMA-Script does use styles for commands like
+(scrreprt)              \chapter. Currently it internally still provides and
+(scrreprt)              uses \@makechapterhead, but a completely different
+(scrreprt)              definition compared to the standard classes.
+(scrreprt)              So redefining or using internal \@makechapterhead
+(scrreprt)              by users or package authors may already break
+(scrreprt)              KOMA-Script and will not work with a coming version,
+(scrreprt)              that will remove this deprecated code.
+
+\openout8 = `main.listing'.
+
+
+! Package minted Error: Cannot highlight code (minted executable is unavailable
+ or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \end{py}
+             
+(That was another \errmessage.)
+
+\openout8 = `main.listing'.
+
+
+! Package minted Error: Cannot highlight code (minted executable is unavailable
+ or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \end{py}
+             
+(That was another \errmessage.)
+
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 3--4
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 28--29
 [][] 
  []
 
-File: Py.png Graphic file (type bmp)
-<Py.png>
+[68
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 37--38
-[][] 
- []
-
-[67
 
 
 
@@ -3232,23 +3388,21 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 37--38
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 60--61
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 62--63
 [][] 
  []
 
-[68]
-File: Py.png Graphic file (type bmp)
-<Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 80--81
-[][] 
+Overfull \hbox (16.63635pt too wide) in paragraph at lines 71--72
+\TU/TimesNewRoman(0)/m/n/14 розв’язаною протягом десятиліть або навіть століть.
+ Часто в процесі розв’язання
  []
 
 [69]
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 106--107
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 85--86
 [][] 
  []
 
@@ -3256,14 +3410,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 106--107
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 133--136
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 153--154
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 105--106
 [][] 
  []
 
@@ -3271,7 +3418,14 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 153--154
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 172--173
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 131--132
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 158--161
 [][] 
  []
 
@@ -3279,87 +3433,15 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 172--173
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 206--207
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 178--179
 [][] 
  []
 
 [73]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.221 $ $ M_
-             {57885161} = 2 ^ {57885161} -1, $ $ що складається з $ 17 \, 42...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no щ in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no к in font cmmi12!
-Missing character: There is no л in font cmmi12!
-Missing character: There is no а in font cmmi12!
-Missing character: There is no д in font cmmi12!
-Missing character: There is no а in font cmmi12!
-Missing character: There is no є in font cmmi12!
-Missing character: There is no т in font cmmi12!
-Missing character: There is no ь in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no я in font cmmi12!
-Missing character: There is no з in font cmmi12!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.222 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.222 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no д in font cmmi12!
-Missing character: There is no е in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no я in font cmmi12!
-Missing character: There is no т in font cmmi12!
-Missing character: There is no к in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no в in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no х in font cmmi12!
-Missing character: There is no ц in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no ф in font cmmi12!
-Missing character: There is no р in font cmmi12!
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.222 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-Overfull \hbox (46.18619pt too wide) in paragraph at lines 230--232
-\TU/TimesNewRoman(0)/m/n/14 Точність вважається досягнутою, якщо на деякому кро
-ці виконано нерівність $[] \OML/cmm/m/it/14.4 <
- []
-
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 239--240
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 197--198
 [][] 
  []
 
@@ -3367,7 +3449,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 239--240
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 269--270
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 231--232
 [][] 
  []
 
@@ -3375,14 +3457,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 269--270
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 290--291
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 310--311
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 264--265
 [][] 
  []
 
@@ -3390,7 +3465,14 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 310--311
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 337--338
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 294--295
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 315--316
 [][] 
  []
 
@@ -3398,7 +3480,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 337--338
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 357--358
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 335--336
 [][] 
  []
 
@@ -3406,14 +3488,7 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 357--358
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 381--382
-[][] 
- []
-
-File: Py.png Graphic file (type bmp)
-<Py.png>
-
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 401--402
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 362--363
 [][] 
  []
 
@@ -3421,92 +3496,49 @@ Overfull \hbox (34.3432pt too wide) in paragraph at lines 401--402
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 417--418
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 382--383
+[][] 
+ []
+
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 406--407
 [][] 
  []
 
 [80]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.439 $ $ M_
-             {57885161} = 2 ^ {57885161} -1, $ $ що складається з $ 17 \, 42...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no щ in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no к in font cmmi12!
-Missing character: There is no л in font cmmi12!
-Missing character: There is no а in font cmmi12!
-Missing character: There is no д in font cmmi12!
-Missing character: There is no а in font cmmi12!
-Missing character: There is no є in font cmmi12!
-Missing character: There is no т in font cmmi12!
-Missing character: There is no ь in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no я in font cmmi12!
-Missing character: There is no з in font cmmi12!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.440 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.440 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no д in font cmmi12!
-Missing character: There is no е in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no я in font cmmi12!
-Missing character: There is no т in font cmmi12!
-Missing character: There is no к in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no в in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no х in font cmmi12!
-Missing character: There is no ц in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no ф in font cmmi12!
-Missing character: There is no р in font cmmi12!
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.440 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 450--451
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 427--428
 [][] 
  []
 
 File: Py.png Graphic file (type bmp)
 <Py.png>
 
-Overfull \hbox (34.3432pt too wide) in paragraph at lines 470--471
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 443--444
 [][] 
  []
 
-[81] [82] (main.aux (titul12.aux) (lab_in_out.aux) (lab_python_if_1.aux)
+[81]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 476--477
+[][] 
+ []
+
+[82]
+File: Py.png Graphic file (type bmp)
+<Py.png>
+
+Overfull \hbox (34.3432pt too wide) in paragraph at lines 496--497
+[][] 
+ []
+
+[83]) [84] (main.aux (titul12.aux) (lab_in_out.aux) (lab_python_if_1.aux)
 (lab_if_2.aux) (lab_python_if.aux) (lab_for1.aux) (lab_for2.aux) (lab_while.aux
 ))
  ***********
@@ -3518,17 +3550,17 @@ L3 programming layer <2020/03/25>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.77509pt have occurred.
 
- ) )
-(\end occurred when \iftrue on line 473 was incomplete)
-(\end occurred when \ifx on line 473 was incomplete)
-(\end occurred when \ifnum on line 473 was incomplete) 
-Here is how much of TeX's memory you used:
- 62810 strings out of 402986
- 1495269 string characters out of 5452849
- 2451287 words of memory out of 5000000
- 90557 multiletter control sequences out of 15000+600000
- 647979 words of font info for 205 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 124i,21n,121p,11209b,874s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (82 pages).
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 62890 strings out of 402986
+ 1497445 string characters out of 5452849
+ 2441675 words of memory out of 5000000
+ 90646 multiletter control sequences out of 15000+600000
+ 647995 words of font info for 207 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 124i,21n,121p,11209b,1253s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (84 pages).

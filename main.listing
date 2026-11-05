@@ -1,3 +1,4 @@
-Синтаксис циклу for
-for параметр in range(start, stop, step):
-    блок_операторів
+while True:
+    val = float(input())
+    if val == 0:  # маркер завершення введення
+        break

@@ -102,7 +102,7 @@ autooneside
 \titleformat{\chapter}[display]
 {\sffamily\bfseries}
 {\begin{tikzpicture}[remember picture,overlay]
-		\node[below left, shade, top color=black, bottom color=pyblue, rectangle, inner sep=2pt, xshift=-2.0cm, minimum width=1.75cm, minimum height=5cm, text width=1.75cm, align=center] at (current page.north east) {\color{pyyellow}\fontsize{50}{60}\selectfont\mbox{}\\[2cm]\thechapter};
+		\node[below left, shade, top color=black, bottom color=pyblue, rectangle, inner sep=2pt, xshift=-2.0cm, minimum width=1.75cm, minimum height=4cm, text width=1.75cm, align=center] at (current page.north east) {\color{pyyellow}\fontsize{50}{60}\selectfont\mbox{}\\[2cm]\thechapter};
 \end{tikzpicture}}
 {-1.425cm}
 {\Huge}
@@ -461,15 +461,16 @@ autooneside
 	% === ОСНОВНИЙ ТЕКСТ ЛЕКЦІЇ ===
 	% Підключені файли:
 	\include{titul12}
-	\include{lab_in_out}
-    \include{lab_python_if_1}
-	\include{lab_if_2}
-		\include{lab_python_if}
-	
-	
-%ниже непорверено ші на укрмову	
+\include{lab_in_out}
+
+\include{lab_python_if_1}
+\include{lab_if_2}
+
+\include{lab_python_if}
+
 \include{lab_for1}
 \include{lab_for2} % этот вызывает ошибку
+
 \include{lab_while}
 
 	
