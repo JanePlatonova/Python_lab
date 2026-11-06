@@ -2,7 +2,7 @@
 
 % lecture_onu.sty
 % Стильовий файл, адаптований до вимог ОНУ (14 пт, 1.5 інтервал, поля 2 см)
-\ProvidesPackage{lecture_onu}
+%\ProvidesPackage{lecture_onu}
 
 % !TeX program = xelatex
 % !TeX options = -shell-escape
@@ -89,7 +89,7 @@ autooneside
 
 
 % 7. КОПІРАЙТ: Змінено на українську мову
-\ifoot[\textcopyright~{Платонова Є. В., Страхов Є. М.}]{\textcopyright~{Платонова Є. В., Страхов Є. М.}}
+\ifoot[\textcopyright~{Страхов Є. М., Платонова Є. В.}]{\textcopyright~{Страхов Є. М., Платонова Є. В.}}
 \cfoot[]{}
 \ofoot[\pagemark]{\pagemark}
 \setkomafont{pageheadfoot}{\footnotesize}
@@ -388,31 +388,35 @@ autooneside
 \newcommand{\LabHeader}[2]{%
 	\noindent
 	\par\nobreak\vspace{2pt}%
+	% Скидаємо відступ абзацу/списку для TikZ
+	\hspace*{-\leftmargin}%
 	\begin{tikzpicture}[remember picture]
-		% 1. Градієнтна смуга зверху
+		% 1. Налаштування відступів на поля (у см)
+		\def\leftout{0.4cm}   % На скільки виходити на ліве поле
+		\def\rightout{0.6cm}  % На скільки виходити на праве поле
+		
+		% 2. Градієнтна смуга зверху
 		\shade[left color=lablightblue, right color=black!90] 
-		(0,0) rectangle (\textwidth, 0.7cm);
+		(-\leftout, 0) rectangle (\textwidth + \rightout, 0.7cm);
 		
-		% 2. Текст "Лабораторна X" білим кольором справа на смузі
+		% 3. Текст "Лабораторна X"
 		\node[anchor=east, pyyellow, font=\bfseries\sffamily\large] 
-		at (\textwidth - 1.5cm, 0.35cm) {Лабораторна #1};
+		at (\textwidth + \rightout - 1.5cm, 0.35cm) {Лабораторна #1};
 		
-		% 3. Текст "Варіант Y" знизу ліворуч
+		% 4. Текст "Варіант Y" знизу ліворуч
 		\node[anchor=west, black, font=\bfseries\Large] 
-		at (0, -0.6cm) {Варіант #2};
+		at (-\leftout, -0.6cm) {Варіант #2};
 		
-		% 4. Зображення Python (з виходом за межі смуги)
-		% Переконайтеся, що файл Py.png існує в папці проєкту
+		% 5. Зображення Python
 		\node[anchor=north east] 
-		at (\textwidth + 0.2cm, 0.8cm) {\includegraphics[width=1.8cm]{Py.png}};
+		at (\textwidth + \rightout + 0.2cm, 0.8cm) {\includegraphics[width=1.8cm]{Py.png}};
 		
-		% 5. Нижня роздільна лінія
+		% 6. Нижня роздільна лінія
 		\draw[line width=0.8pt, lablightblue] 
-		(0, -1.1cm) -- (\textwidth, -1.1cm);
+		(-\leftout, -1.1cm) -- (\textwidth + \rightout, -1.1cm);
 	\end{tikzpicture}%
-	\nopagebreak % <--- Забороняє розрив і після відступу
+	\nopagebreak
 }
-
 
 
 % Variant heading (Варіант = Ukrainian; pylab.sty had Russian "Вариант")
@@ -456,11 +460,14 @@ autooneside
 \titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
 	
 		% === ЗМІСТ ===
-		\tableofcontents
+
 	
 	% === ОСНОВНИЙ ТЕКСТ ЛЕКЦІЇ ===
 	% Підключені файли:
 	\include{titul12}
+	
+		\tableofcontents	
+	
 \include{lab_in_out}
 
 \include{lab_python_if_1}
